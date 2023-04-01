@@ -9,6 +9,49 @@
     list-style-type: none;
 }
 
+h1, 
+h2, 
+h3 {
+    font-family: 'Oleo Script Swash Caps';
+    color: #0B6801;
+}
+
+/* header (logo + nav) */
+
+.div-logo {
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 4vw;
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+    float: left;
+    height: 50px;
+    color: black;
+}
+
+h1 span {
+    display: block;
+}
+
+.lila-f {
+    color: #82007D;
+}
+
+.green-f {
+    color: #0B6801;
+}
+
+.logo-fancy {
+    margin: 15px 0 0 15px;
+}
+
+.logo-farmers {
+    margin: -10px 0 0 50px;
+}
+
 /* footer */
 
 footer {
