@@ -1,0 +1,51 @@
+@import "base.css";
+
+body {
+    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
+}
+
+/* main section */
+
+main {
+    position: relative;
+    padding: 180px 10% 90px;
+}
+
+h2, h3 {
+    background-color: white;
+    border: 2px solid #0B6801;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.div-left h3 {
+    position: absolute;
+    top: -35px;
+    left: -60px;
+}
+
+.div-right h3 {
+    position: absolute;
+    top: -35px;
+    right: -60px;
+}
+
+main p {
+    text-align: justify;
+    padding: 15px;
+}
+
+main div {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 25px 15px 15px;
+    margin-bottom: 6%;
+}
