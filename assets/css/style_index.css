@@ -82,3 +82,33 @@ address {
         margin-top: 30px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        font-size: smaller;
+    }
+
+    main div {
+        top: 15%;
+        left: 5%;
+        width: 90%;
+    }
+
+    .organic-food {
+        padding-left: 0;
+    }
+    
+    .bio-farm {
+        padding-right: 0;
+    }
+
+    .contact-details,
+    .map-em {
+        width: 100%;
+        height: 150px;
+    }
+
+    address {
+        margin-top: 30px;
+    }
+}
