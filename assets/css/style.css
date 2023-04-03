@@ -18,6 +18,15 @@ h3 {
 
 /* header (logo + nav) */
 
+.big-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-top: 1px solid black;
+}
+
 .div-logo {
     background-color: white;
     border-bottom: 1px solid black;
