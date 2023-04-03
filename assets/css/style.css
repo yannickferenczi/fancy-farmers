@@ -35,6 +35,13 @@ h3 {
     width: 100%;
 }
 
+h1, 
+h2, 
+h3 {
+    font-family: 'Oleo Script Swash Caps';
+    color: #0B6801;
+}
+
 h1 {
     float: left;
     height: 50px;
@@ -64,14 +71,17 @@ h1 span {
 .big-header nav {
     float: right;
     width: 70%;
+    height: 80px;
     text-align: right;
     margin-top: -40px;
+    overflow: hidden;
 }
 
 .menu-options li {
     float: left;
     width: 20%;
     height: 80px;
+    font-size: 21px;
     background-color: black;
     line-height: 80px;
     text-align: center;
@@ -93,6 +103,10 @@ h1 span {
     color: #82007D;
 }
 
+.big-header a {
+    text-decoration: none;
+}
+
 .menu-options li:hover {
     color: #82007D;
     background-color: white;
@@ -101,6 +115,14 @@ h1 span {
 
 .menu-options a:hover {
     color: #82007D;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.big-header input {
+    display: none;
 }
 
 /* footer */
