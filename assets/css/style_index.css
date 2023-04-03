@@ -1,0 +1,53 @@
+@import "base.css";
+
+/* main section */
+
+main {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+main div {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    overflow: hidden;
+}
+
+main header {
+    border: none;
+    position: static;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.contact-details {
+    float: left;
+    width: 44%;
+    height: 300px;
+}
+
+address {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.email-address {
+    padding: 5px;
+}
+
+.map-em {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
