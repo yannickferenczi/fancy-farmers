@@ -196,15 +196,15 @@ footer i {
         height: 100%;
     }
     
-    .big-header i:hover {
-        font-size: 50px;
-    }
-
     .menu-icon i {
         line-height: 80px;
         vertical-align: middle;
     }
     
+    .big-header i:hover {
+        font-size: 50px;
+    }
+
     .closing-icon {
         display: inline-block;
         width: 8%;
@@ -247,6 +247,30 @@ footer i {
 }
 
 @media screen and (max-width: 600px) {
+    .menu-options li {
+        font-size: 18px;
+    }
+
+    .menu-icon {
+        top: 95px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-icon i {
+        line-height: 50px;
+        vertical-align: middle;
+    }
+    
+    .big-header i {
+        font-size: 25px;
+    }
+    
+    .big-header i:hover {
+        font-size: 30px;
+    }
+
     footer {
         clear: both;
         height: 100px;
