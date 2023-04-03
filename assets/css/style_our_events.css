@@ -107,3 +107,54 @@ section > p {
 .bonfire-only p {
     display: inline-block;
 }
+
+@media screen and (max-width: 900px) {
+    main {
+        padding: 170px 10% 70px;
+    }
+    
+    article {
+        margin: 50px 5%;
+    }
+    
+    figure {
+        display: none;
+    }
+
+    .left-items,
+    .right-items {
+        border-radius: 0;
+    }
+
+    .left-items .course-bonfire {
+        width: 300px;
+        left: -25px;
+    }
+    
+    .right-items .course-bonfire {
+        width: 300px;
+        right: 75px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 130px 2% 80px;
+    }
+
+    .right-items header,
+    .left-items header {
+        position: absolute;
+        text-align: center;
+        width: 60%;
+        left: 50%;
+        margin-left: -35%;
+    }
+    
+    .left-items .course-bonfire,
+    .right-items .course-bonfire {
+        top: 40px;
+        left: 50%;
+        margin-left: -150px;
+    }
+}

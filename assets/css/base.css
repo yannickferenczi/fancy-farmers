@@ -41,7 +41,7 @@ h3 {
 .div-logo {
     background-color: white;
     border-bottom: 1px solid black;
-    padding: 10px 0 10px 4vw;
+    padding: 10px 0 10px 3vw;
     height: 100px;
     width: 100%;
 }
@@ -73,7 +73,7 @@ h1 {
 
 .big-header nav {
     float: right;
-    width: 70%;
+    width: 75%;
     height: 80px;
     text-align: right;
     margin-top: -40px;
@@ -84,7 +84,7 @@ h1 {
     float: left;
     width: 20%;
     height: 80px;
-    font-size: 19px;
+    font-size: 18px;
     background-color: black;
     line-height: 80px;
     text-align: center;
