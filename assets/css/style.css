@@ -35,21 +35,10 @@ h3 {
     width: 100%;
 }
 
-h1, 
-h2, 
-h3 {
-    font-family: 'Oleo Script Swash Caps';
-    color: #0B6801;
-}
-
 h1 {
     float: left;
     height: 50px;
     color: black;
-}
-
-h1 span {
-    display: block;
 }
 
 .lila-f {
@@ -61,10 +50,12 @@ h1 span {
 }
 
 .logo-fancy {
+    display: block;
     margin: 15px 0 0 15px;
 }
 
 .logo-farmers {
+    display: block;
     margin: -10px 0 0 50px;
 }
 
@@ -247,12 +238,37 @@ footer i {
 }
 
 @media screen and (max-width: 600px) {
+    .div-logo {
+        height: 80px;
+        padding: 0 0 10px 4vw;
+    }
+        
+    h1 {
+        height: 30px;
+    }
+
+    .long-logo {
+        display: none;
+    }
+
+    .logo-fancy {
+        margin: 15px 0 0 40px;
+    }
+    
+    .logo-farmers {
+        margin: -25px 0 0 50px;
+    }
+
+    nav ul {
+        top: 91px;
+    }
+
     .menu-options li {
         font-size: 18px;
     }
 
     .menu-icon {
-        top: 95px;
+        top: 65px;
         right: 50px;
         width: 50px;
         height: 50px;
