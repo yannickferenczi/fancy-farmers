@@ -10,7 +10,6 @@
 }
 
 body {
-    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
@@ -21,6 +20,11 @@ h3 {
     font-family: 'Oleo Script Swash Caps', cursive;
     color: #0B6801;
     font-size: 24px;
+}
+
+.internal-link {
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 /* header (logo + nav) */
@@ -122,6 +126,15 @@ h1 {
 
 .big-header input {
     display: none;
+}
+
+/* main section */
+
+main {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.4);
+    min-height: 100vh;
+    text-align: justify;
 }
 
 /* footer */

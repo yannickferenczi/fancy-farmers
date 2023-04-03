@@ -4,12 +4,8 @@
 
 main {
     background: url(../images/pexels-pixabay-70846.jpg) no-repeat center/cover;
-    clear: both;
-    background-color: rgba(255, 255, 255, 0.4);
-    min-height: 100vh;
     width: 100%;
     position: relative;
-    box-sizing: border-box;
 }
 
 main div {
