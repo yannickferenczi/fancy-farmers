@@ -1,0 +1,109 @@
+@import "base.css";
+
+body {
+    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
+}
+
+/* main section */
+
+main {
+    position: static;
+    padding: 170px 10% 90px;
+}
+
+article {
+    clear: both;
+    position: relative;
+    margin: 7% 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+}
+
+.left-items {
+    border-top-left-radius: 5%;
+}
+
+.right-items {
+    border-top-right-radius: 5%;
+}
+
+figure {
+    width: 40%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.left-items figure {
+    float: left;
+    margin: -5% 15px 0 -5%;
+}
+
+.right-items figure {
+    float: right;
+    margin: -5% -5% 0 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    position: relative;
+    padding: 100px 15px 15px 15px;
+    margin: 15px;
+}
+
+section header {
+    position: absolute;
+    top: -35px;
+    background-color: white;
+    padding: 15px;
+    border: none;
+}
+
+.left-items header {
+    right: -60px;
+    text-align: right;
+}
+
+.right-items header {
+    left: -60px;
+    text-align: left;
+}
+
+section > p {
+    padding: 15px;
+}
+
+.course-bonfire {
+    position: absolute;
+    top: 15px;
+    width: 400px;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left-items .course-bonfire {
+    right: 10%;
+}
+
+.right-items .course-bonfire {
+    left: 10%;
+}
+
+.bonfire-only {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: -15px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bonfire-only p {
+    display: inline-block;
+}
