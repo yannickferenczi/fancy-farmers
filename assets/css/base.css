@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Reset default css properties */
 
@@ -9,11 +9,17 @@
     list-style-type: none;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
 h1, 
 h2, 
 h3 {
     font-family: 'Oleo Script Swash Caps', cursive;
     color: #0B6801;
+    font-size: 24px;
 }
 
 /* header (logo + nav) */
@@ -39,6 +45,7 @@ h1 {
     float: left;
     height: 50px;
     color: black;
+    font-size: 30px;
 }
 
 .lila-f {
@@ -72,7 +79,7 @@ h1 {
     float: left;
     width: 20%;
     height: 80px;
-    font-size: 21px;
+    font-size: 19px;
     background-color: black;
     line-height: 80px;
     text-align: center;
@@ -165,6 +172,10 @@ footer i {
 /* media queries */
 
 @media screen and (max-width: 900px) {
+    body {
+        font-size: 17px;
+    }
+    
     .menu-icon {
         display: block;
         position: fixed;
@@ -238,6 +249,17 @@ footer i {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h2, 
+    h3 {
+        font-family: 'Oleo Script Swash Caps', cursive;
+        color: #0B6801;
+        font-size: 19px;
+    }
+    
     .div-logo {
         height: 80px;
         padding: 0 0 10px 4vw;

@@ -14,9 +14,9 @@ main {
 main div {
     background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 15%;
-    width: 70%;
+    width: 75%;
     overflow: hidden;
 }
 
@@ -26,11 +26,12 @@ main header {
     background-color: white;
     text-align: center;
     padding: 25px;
+    margin: 5% 0;
 }
 
 .contact-details {
     float: left;
-    width: 44%;
+    width: 50%;
     height: 300px;
 }
 
@@ -54,7 +55,7 @@ address {
 
 @media screen and (max-width: 900px) {
     main div {
-        top: 25%;
+        top: 15%;
         left: 15%;
     }
 
@@ -84,10 +85,6 @@ address {
 }
 
 @media screen and (max-width: 600px) {
-    main {
-        font-size: smaller;
-    }
-
     main div {
         top: 15%;
         left: 5%;
