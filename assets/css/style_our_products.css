@@ -7,7 +7,7 @@ body {
 /* main section */
 
 main {
-    padding: 170px 10% 90px;
+    padding: 180px 10% 90px;
 }
 
 main header {
@@ -22,6 +22,10 @@ summary {
     text-align: center;
 }
 
+h2 {
+    padding-bottom: 15px;
+}
+
 summary em {
     cursor: pointer;
 }
@@ -33,7 +37,7 @@ details p {
 article {
     clear: both;
     position: relative;
-    margin: 50px 20px;
+    margin: 7% 20px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -74,4 +78,19 @@ img {
 main section {
     padding: 15px;
     margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 130px 2% 90px;
+    }
+    
+    figure {
+        display: none;
+    }
+
+    .left-items,
+    .right-items {
+        border-radius: 0;
+    }
 }
