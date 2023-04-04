@@ -43,7 +43,8 @@ form label {
     padding-bottom: 5px;
 }
 
-form input {
+form input,
+textarea {
     line-height: 30px;
     margin: 3px 0;
     border: 2px solid #0B6801;
