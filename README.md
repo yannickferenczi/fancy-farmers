@@ -7,6 +7,25 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
 ---
+## Technologies Used
+**Languages**
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript for the use of <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> only.</li>
+</ul>
+
+**Frameworks and other Programs**
+<ul>
+    <li><a href="https://app.corelvector.com/ target="_blank">Corel Vector</a> has been used for the wireframes</li>
+    <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> has been used to display icons</li>
+    <li>Git has been used to version control the project</li>
+    <li>GitHub has been used to cloudify and deploy the project</li>
+    <li>GitPod has been used as an IDE to develop the project</li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families</li>
+</ul>
+
+---
 ## Deployment
 **How this site was deployed**
 <ul>
