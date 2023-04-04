@@ -7,6 +7,29 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
 ---
+## Design
+**Design orientation**
+
+The Website has been designed to communicate the feeling of nature and peace while the first goal is to show the user the proximity of our farm and how easy it is to have fresh and healthy products every week.
+
+**Colours**
+
+Regarding the colours, a darkgreen and a violet have been used for the logo to associate the nature with the quality. In fact, the green brings Harmony, refreshment, environmental awareness and peace and the violet brings Spiritual awareness, luxury, authenticity and quality.
+Those two colours, combined with the yellow create a triadic colour, in which the yellow brings the energy.
+
+As they are all three strong colours, the green and the violet have only been used with little touch to always refer to the logo, while the intensity of the yellow, used as a background color with an image, has been reduce with the transparency property to keep the overall balance a nice harmony.
+
+Finally, a cover picture with a big blue sky has been used on the landing page to place the user into a calm and seren mood.
+
+Because those colours are very strong and have a strong contrast together some black and white have been used to separate those colours and therefore use the full power of their association.
+
+**Fonts**
+
+Oleo Script Swash Caps has been used for the logo to communicate our elegance and break down some stereotypes associated to farmers. It has also been used for the headings to keep a certain consistency through the website. Cursive has been use as a fallback.
+
+For the rest of the content, the more readable Open Sans has been used with a sans-serif as fallback. Open Sans has been used because it was a good recommendation to associate it to the Oleo Script Swash Caps font.
+
+---
 ## Technologies Used
 **Languages**
 <ul>
