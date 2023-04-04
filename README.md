@@ -67,7 +67,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 **Media**
 <ul>
     <li>
-        The icons in the header, footer and on the back of the flip-cards were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+        The icons in the footer and on the <a href="https://yannickferenczi.github.io/fancy-farmers/about_us.html" target="_blank">About us</a> page were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
     </li>
     <li>
         The fonts used were imported from <a href="https://fonts.google.com/">Google Fonts</a>.
@@ -79,4 +79,14 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
         </ul>
     </li>
 </ul>
+
+---
+## Acknowledgements
+<ul>
+    <li>
+        Thank you to my mentor Akshat Garg who provided me with some resources to assist me in this project.
+    </li>
+    <li>
+        Thank you to <a href="https://codeinstitute.net/de/" target="_blank">Code Institute</a> for their program to become a full stack software developer allowing me to code this project after less than 3 weeks of learning.
+    </li>
 </ul>
