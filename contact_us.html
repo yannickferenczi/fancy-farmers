@@ -52,7 +52,13 @@
             </div>
             <div>
                 <label for="subject">Subject</label>
-                <input id="subject" type="text" name="subject" placeholder="Select a subject" required>
+                <select id="subject" name="subject">
+                    <option value="information">General Information</option>
+                    <option value="order" selected>Order Information</option>
+                    <option value="event">Event Information</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
             </div>
             <div class="div-message">
                 <label for="message">Message</label>
