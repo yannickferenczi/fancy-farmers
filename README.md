@@ -41,3 +41,42 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
         On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process.
     </li>
 </ul>
+
+---
+## Credits
+**Content**
+<ul>
+    <li>
+        Most of the content has been created using ChatGPT.
+    </li>
+    <li>
+        The rest of the content was been written by the developer.
+    </li>
+</ul>
+
+**Code**
+<ul>
+    <li>
+        The hamburger menu, written in CSS only, has been inspired by <a href="https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" target="_blank">this excellent code</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:checked" target="_blank">that one too</a>.
+    </li>
+    <li>
+        The CSS code to format the images on <a href="https://yannickferenczi.github.io/fancy-farmers/our_products.html">Our products</a> and on <a href="https://yannickferenczi.github.io/fancy-farmers/our_events.html">Our events</a> come from <a href="https://www.w3schools.com/css/css3_images.asp">this page</a>.
+    </li>
+</ul>
+
+**Media**
+<ul>
+    <li>
+        The icons in the header, footer and on the back of the flip-cards were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
+    </li>
+    <li>
+        The fonts used were imported from <a href="https://fonts.google.com/">Google Fonts</a>.
+    </li>
+    <li>
+        All images were downloaded for free from <a href="https://www.pexels.com/">Pexels</a> :
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+</ul>
+</ul>
