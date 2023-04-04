@@ -7,7 +7,7 @@ body {
 /* main section */
 
 main {
-    padding: 180px 10% 50px;
+    padding: 160px 10% 110px;
     background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -15,12 +15,12 @@ main header {
     background-color: white;
     width: 70%;
     padding: 15px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 address {
     background-color: rgba(255, 255, 255, 0.7);
-    margin: 15px 25%;
+    margin: 30px 25%;
     text-align: center;
 }
 
@@ -93,4 +93,27 @@ form input:focus {
 
 .reset-btn:hover {
     background-color: red;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        padding: 140px 10% 10px;
+    }
+    
+    main header {
+        margin: 40px auto;
+    }
+    
+    address {
+        margin: 40px 25%;
+    }
+
+    .submit-btn {
+        left: 20%;
+    }
+    
+    .reset-btn {
+        right: 20%;
+    }
+    
 }
