@@ -44,7 +44,8 @@ form label {
 }
 
 form input,
-textarea {
+textarea,
+select {
     line-height: 30px;
     margin: 3px 0;
     border: 2px solid #0B6801;
