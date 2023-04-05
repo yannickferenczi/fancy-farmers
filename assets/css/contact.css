@@ -8,7 +8,6 @@ body {
 
 main {
     padding: 160px 10% 110px;
-    background-color: rgba(255, 255, 255, 0.7);
 }
 
 main header {
@@ -20,7 +19,7 @@ main header {
 }
 
 address {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     margin: 30px 25%;
     text-align: center;
     border: 2px solid #0B6801;
@@ -52,7 +51,7 @@ select {
     margin: 3px 0;
     border: 2px solid #0B6801;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 form input:hover {
