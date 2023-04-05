@@ -34,6 +34,65 @@ details p {
     padding-top: 15px;
 }
 
+/* price listing */
+
+.product-list {
+    text-align: center;
+}
+
+.available-products {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-weight: bold;
+    border: 3px solid #0B6801;
+    cursor: pointer;
+}
+
+.price-listing {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+table {
+    background-color: white;
+    margin: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.our-eggs, 
+.our-dairy-products,
+.our-honey-based-products {
+    grid-column: 2 / 3;
+}
+
+.our-vegetables {
+    grid-column: 1 / 2;
+}
+
+table > caption {
+    background-color: white;
+}
+
+th {
+    padding: 2px 15px;
+    border: 1px solid black;
+}
+
+td {
+    border-top: 1px dashed black;
+    padding: 2px 20px;
+}
+
+.left-align {
+    text-align: left;
+}
+
+/* articles */
+
 article {
     clear: both;
     position: relative;
