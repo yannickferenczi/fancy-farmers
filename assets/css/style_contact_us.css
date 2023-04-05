@@ -50,7 +50,7 @@ select {
     margin: 3px 0;
     border: 2px solid #0B6801;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 form input:hover {
@@ -58,7 +58,9 @@ form input:hover {
     margin: 0;
 }
 
-form input:focus {
+form input:focus,
+select:focus,
+textarea:focus {
     background-color: rgba(11, 104, 1);
     color: white;
 }
