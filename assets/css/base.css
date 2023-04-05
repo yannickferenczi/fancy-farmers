@@ -285,7 +285,7 @@ footer i {
     }
     
     .div-logo {
-        height: 80px;
+        height: 60px;
         padding: 0 0 10px 4vw;
     }
         
@@ -298,7 +298,7 @@ footer i {
     }
 
     .logo-fancy {
-        margin: 15px 0 0 40px;
+        margin: 10px 0 0 40px;
     }
     
     .logo-farmers {
@@ -314,7 +314,7 @@ footer i {
     }
 
     .menu-icon {
-        top: 65px;
+        top: 45px;
         right: 50px;
         width: 50px;
         height: 50px;
