@@ -61,6 +61,7 @@ section header {
     background-color: white;
     padding: 15px;
     border: none;
+    border: 2px solid #0B6801;
 }
 
 .left-items header {
