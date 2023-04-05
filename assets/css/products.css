@@ -2,6 +2,7 @@
 
 body {
     background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* main section */
