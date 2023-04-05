@@ -139,6 +139,25 @@ main section {
     margin: 15px;
 }
 
+@media screen and (max-width: 900px) {
+    main section {
+        padding: 15px 0;
+        margin: 15px 0;
+    }
+
+    table {
+        margin: 15px 0;
+    }
+
+    .our-eggs, 
+    .our-vegetables,
+    .our-dairy-products,
+    .our-honey-based-products {
+        grid-column: 1 / 3;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     main {
         padding: 130px 2% 90px;
