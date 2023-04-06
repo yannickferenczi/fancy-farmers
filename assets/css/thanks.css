@@ -17,6 +17,7 @@ main div {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 1px 1px 5px black;
+    border-radius: 5px;
 }
 
 h2 {

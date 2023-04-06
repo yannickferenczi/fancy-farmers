@@ -15,6 +15,7 @@ h2, h3 {
     background-color: white;
     border: 2px solid #0B6801;
     padding: 15px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -56,6 +57,7 @@ main div {
     background-color: rgba(255, 255, 255, 0.6);
     padding: 25px 15px 15px;
     margin-bottom: 60px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 900px) {
