@@ -13,6 +13,7 @@ main div {
     margin-left: 3%;
     width: 60%;
     overflow: hidden;
+    box-shadow: 1px 1px 5px black;
 }
 
 main header {
@@ -20,7 +21,7 @@ main header {
     background-color: white;
     text-align: center;
     padding: 15px;
-    border: 2px solid #0B6801;
+    border-bottom: 2px solid #0B6801;
 }
 
 .contact-details {

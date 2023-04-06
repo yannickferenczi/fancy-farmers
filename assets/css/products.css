@@ -104,10 +104,12 @@ article {
 
 .left-items {
     border-top-left-radius: 5%;
+    box-shadow: 1px 1px 5px black;
 }
 
 .right-items {
     border-top-right-radius: 5%;
+    box-shadow: -1px 1px 5px black;
 }
 
 article p {
@@ -124,11 +126,13 @@ figure {
 .left-items figure {
     float: left;
     margin: -5% 15px 0 -5%;
+    box-shadow: 1px 1px 5px black;
 }
 
 .right-items figure {
     float: right;
     margin: -5% -5% 0 15px;
+    box-shadow: -1px 1px 5px black;
 }
 
 img {

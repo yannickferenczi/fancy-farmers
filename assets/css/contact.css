@@ -22,7 +22,7 @@ address {
     background-color: rgba(255, 255, 255, 0.6);
     margin: 30px 25%;
     text-align: center;
-    border: 2px solid #0B6801;
+    box-shadow: 1px 1px 5px black;
 }
 
 .email-address {
@@ -32,6 +32,7 @@ address {
 form {
     position: relative;
     padding-bottom: 80px;
+    box-shadow: 1px 1px 5px black;
 }
 
 form div {
@@ -83,6 +84,7 @@ textarea:focus {
     width: 150px;
     padding: 10px 0;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
 }
 
 .submit-btn {
