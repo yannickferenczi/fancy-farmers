@@ -84,8 +84,14 @@ address {
         width: 90%;
     }
 
-    main header {
+    .organic-food {
         text-align: center;
+        padding-left: 0;
+    }
+    
+    .bio-farm {
+        text-align: center;
+        padding-right: 0;
     }
 
     address {
