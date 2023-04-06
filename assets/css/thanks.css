@@ -7,7 +7,7 @@ body {
 /* main section */
 
 main {
-    padding: 250px 10% 110px;
+    padding: 250px 15% 110px;
     text-align: center;
 }
 
@@ -25,4 +25,10 @@ h2 {
 
 p {
     padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    main div {
+        width: 90%;
+    }
 }
