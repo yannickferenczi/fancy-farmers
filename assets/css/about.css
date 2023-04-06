@@ -66,3 +66,24 @@ main div {
     }
 }
 
+@media screen and (max-width: 600px) {
+    main {
+        padding: 180px 2% 60px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .div-left h3 {
+        left: 50%;
+        margin-left: -76px;
+    }
+    
+    .div-right h3 {
+        right: 50%;
+        margin-right: -150px;
+    }
+    
+}
+
