@@ -60,22 +60,21 @@ select {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
+    padding: 1px;
 }
 
 textarea {
     height: 100px;
 }
 
-form input:hover,
-textarea:hover {
-    height: 36px;
-    margin: 0;
+.react-on-action:hover {
+    border: 3px solid #0B6801;
+    padding: 0;
 }
 
-form input:focus,
-select:focus,
-textarea:focus {
+.react-on-action:focus {
     background-color: white;
+    border: 3px solid #0B6801;
 }
 
 .full-name {
