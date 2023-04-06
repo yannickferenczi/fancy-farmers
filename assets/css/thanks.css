@@ -32,3 +32,9 @@ p {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 110px 2% 0;
+    }
+}
