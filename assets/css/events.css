@@ -8,7 +8,6 @@ main {
 article {
     clear: both;
     position: relative;
-    margin: 7% 20px;
     background-color: rgba(255, 255, 255, 0.6);
     padding-bottom: 20px;
     border-radius: 5px;
@@ -20,6 +19,7 @@ article {
 }
 
 .right-items {
+    margin-top: 80px;
     border-top-right-radius: 5%;
     box-shadow: -1px 1px 5px black;
 }
@@ -51,12 +51,11 @@ img {
 section {
     position: relative;
     padding: 100px 15px 15px 15px;
-    margin: 15px;
 }
 
 section header {
     position: absolute;
-    top: -35px;
+    top: -45px;
     background-color: white;
     padding: 15px;
     border: none;
@@ -128,12 +127,12 @@ section > p {
 
     .left-items .course-bonfire {
         width: 300px;
-        left: -25px;
+        left: 5%;
     }
     
     .right-items .course-bonfire {
         width: 300px;
-        right: 75px;
+        left: 30%;
     }
 }
 
@@ -151,7 +150,7 @@ section > p {
     .left-items .course-bonfire,
     .right-items .course-bonfire {
         top: 40px;
-        left: 50%;
-        margin-left: -150px;
+        left: 0;
+        width: 100%;
     }
 }
