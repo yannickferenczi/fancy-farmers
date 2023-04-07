@@ -75,10 +75,6 @@ address {
 
 /* 600px and smaller */
 @media screen and (max-width: 600px) {
-    body {
-        background: url(../images/pexels-pixabay-70846-mobile.jpg) no-repeat center/cover;
-    }
-
     main div {
         width: 100%;
     }
