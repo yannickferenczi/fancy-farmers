@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Reset default css properties */
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +8,10 @@
     list-style-type: none;
 }
 
+/* general body properties */
 body {
+    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
@@ -32,7 +34,6 @@ h3 {
 }
 
 /* header (logo + nav) */
-
 .big-header {
     position: fixed;
     width: 100%;
@@ -133,16 +134,16 @@ h1 {
 }
 
 /* main section */
-
 main {
     clear: both;
-    background-color: rgba(255, 255, 255, 0.4);
+    position: relative;
+    padding: 220px 15% 100px;
+    text-align: center;
     min-height: 100vh;
     text-align: justify;
 }
 
 /* footer */
-
 footer {
     position: fixed;
     background-color: black;
@@ -189,9 +190,14 @@ footer i {
 
 /* media queries */
 
+/* 900px and smaller */
 @media screen and (max-width: 900px) {
     body {
         font-size: 17px;
+    }
+    
+    main {
+        padding: 180px 10% 120px;
     }
     
     .menu-icon {
@@ -274,9 +280,14 @@ footer i {
     }
 }
 
+/* 600px and smaller */
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
+    }
+    
+    main {
+        padding: 115px 3% 120px;
     }
     
     h2, 

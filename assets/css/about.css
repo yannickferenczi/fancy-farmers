@@ -1,14 +1,8 @@
 @import "base.css";
 
-body {
-    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
-}
-
 /* main section */
-
 main {
-    position: relative;
-    padding: 180px 10% 60px;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 h2, h3 {
@@ -60,17 +54,14 @@ main div {
     border-radius: 5px;
 }
 
+/* media queries */
+
+/* 900px and smaller */
 @media screen and (max-width: 900px) {
-    main {
-        padding: 180px 15% 60px;
-    }
 }
 
+/* 600px and smaller */
 @media screen and (max-width: 600px) {
-    main {
-        padding: 120px 2% 60px;
-    }
-
     h3 {
         text-align: center;
     }
@@ -84,6 +75,4 @@ main div {
         right: 50%;
         margin-right: -150px;
     }
-    
 }
-

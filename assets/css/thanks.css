@@ -1,14 +1,8 @@
 @import "base.css";
 
-body {
-    background: url(../images/pexels-natalie-bond-1204998.jpg) no-repeat center center fixed;
-}
-
 /* main section */
-
 main {
-    padding: 250px 15% 110px;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 main div {
@@ -28,14 +22,15 @@ p {
     padding: 10px;
 }
 
+/* media queries */
+
+/* 900px and smaller */
 @media screen and (max-width: 900px) {
     main div {
         width: 90%;
     }
 }
 
+/* 600px and smaller */
 @media screen and (max-width: 600px) {
-    main {
-        padding: 110px 2% 0;
-    }
 }
