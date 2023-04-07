@@ -9,8 +9,9 @@ main header {
     background-color: white;
     text-align: center;
     padding: 15px;
-    margin: 40px 5%;
+    margin: 0 5% 40px;
     border: 2px solid #0B6801;
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
@@ -118,9 +119,10 @@ textarea {
 /* 900px and smaller */
 @media screen and (max-width: 900px) {
     main header {
-        margin: 40px auto;
+        width: 100%;
+        margin: 0 0 40px;
     }
-    
+
     address {
         margin: 40px 0;
     }
