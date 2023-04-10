@@ -61,6 +61,7 @@ select {
 
 textarea {
     height: 100px;
+    line-height: 18px;
 }
 
 .react-on-action:hover {
@@ -147,13 +148,23 @@ textarea {
 /* 600px and smaller */
 @media screen and (max-width: 600px) {
     form {
-        padding-bottom: 150px;
+        padding: 0 20% 150px;
     }
 
     form div {
-        width: 96%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
     
+    .div-message {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
     .full-name {
         clear: both;
     }
