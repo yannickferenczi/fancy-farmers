@@ -154,7 +154,7 @@ footer {
     z-index: 2;
 }
 
-footer > section {
+footer > div {
     margin-right: 15px;
     float: right;
 }
@@ -342,7 +342,7 @@ footer i {
         height: 100px;
     }
 
-    footer section {
+    footer > div {
         clear: both;
         width: 100%;
         margin: 0;
