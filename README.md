@@ -9,6 +9,48 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
 ---
+## User Experience (UX)
+**User stories**
+
+<ul>
+    <li>
+        First Time Visitor Goals
+        <ol>
+            <li>As a First Time Visitor, I want to easily understand the main purpose of the website and learn more about the organisation.
+            </li>
+            <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+            </li>
+            <li>As a First Time Visitor, I want to easily find where the farm is located to know if I can easily go there.
+            </li>
+            <li>As a First Time Visitor, I want to easily find their organisation on social media to see how active they are and found feedback from current customers.
+            </li>
+        </ol>
+    </li>
+    <li>
+        Returning Visitor Goals
+        <ol>
+            <li>As a Returning Visitor, I want to find the seasonnal products I want to purchase currently.
+            </li>
+            <li>As a Returning Visitor, I want to find the up coming events organised at the farm.
+            </li>
+            <li>As a Returning Visitor, I want to easily find a few different ways to contact the organisation.
+            </li>
+            <li>As a Returning Visitor, I want to find links to their social media.
+            </li>
+        </ol>
+    </li>
+    <li>
+        Frequent User Goals
+        <ol>
+            <li>As a Frequent User, I want to know their currently available products.
+            </li>
+            <li>As a Frequent User, I want to know what are the up coming events organised at the farm.
+            </li>
+        </ol>
+    </li>
+</ul>
+
+---
 ## Design
 **Design orientation**
 
