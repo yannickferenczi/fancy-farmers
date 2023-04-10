@@ -1,7 +1,7 @@
 # Fancy Farmers Website
 (Developer: Yannick Ferenczi)
 
-This is the main website for Fancy Farmers. It provides information about the Fancy Farmers, their products, their events and how to find them and contact them. It is a fully responsive website allowing customers to visit it from any device.
+This is the marketing website to promote the Fancy Farmers company. It provides information about the Fancy Farmers, their products, their events and how to find them and contact them. It is a fully responsive website allowing customers to visit it from any device.
 Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
 <img src="assets/images/multi-mockup-index.jpg">
@@ -21,6 +21,8 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
             <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
             </li>
             <li>As a First Time Visitor, I want to easily find where the farm is located to know if I can easily go there.
+            </li>
+            <li>As a First Time Visitor, I want to easily find the prices of their products and events.
             </li>
             <li>As a First Time Visitor, I want to easily find their organisation on social media to see how active they are and found feedback from current customers.
             </li>
@@ -52,9 +54,10 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
 ---
 ## Design
+
 **Design orientation**
 
-The Website has been designed to communicate the feeling of nature and peace while the first goal is to show the user the proximity of our farm and how easy it is to have fresh and healthy products every week.
+The Website has been designed to communicate the feeling of nature and peace while the first goal is to show the user the proximity of the farm and how easy it is to have fresh and healthy products every week.
 
 **Colours**
 
@@ -73,24 +76,39 @@ Oleo Script Swash Caps has been used for the logo to communicate our elegance an
 
 For the rest of the content, the more readable Open Sans has been used with a sans-serif as fallback. Open Sans has been used because it was a good recommendation to associate it to the Oleo Script Swash Caps font.
 
+**Structure**
+
+A common structure is used over all pages and contains a Header, with the logo and the menu, and a Footer, with the copyright and the social media links.
+The website has 5 pages accessible from the menu:
+<ul>
+    <li>A landing page with the purpose of the company, their contact details and location</li>
+    <li>An about page to present the family business and their certifications</li>
+    <li>A products page to list the available products, their price and promote them</li>
+    <li>An events page to display the up coming events with their price and describe them</li>
+    <li>A contact page with a form to provide the user with an easy way to contact the company</li>
+</ul>
+The website also provide a thanks page only accessible after submiting the form.
+
 ---
 ## Technologies Used
 **Languages**
 <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript for the use of <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> only.</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
 </ul>
 
 **Frameworks and other Programs**
 <ul>
-    <li><a href="https://app.corelvector.com/ target="_blank">Corel Vector</a> has been used for the wireframes</li>
-    <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> has been used to display icons</li>
-    <li>Git has been used to version control the project</li>
-    <li>GitHub has been used to cloudify and deploy the project</li>
-    <li>GitPod has been used as an IDE to develop the project</li>
-    <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families</li>
+    <li><a href="https://app.corelvector.com/ target="_blank">Corel Vector</a> has been used for the wireframes and the favicon.</li>
+    <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> has been used to display icons.</li>
+    <li>Git has been used to version control the project.</li>
+    <li>GitHub has been used to cloudify and deploy the project.</li>
+    <li>GitPod has been used as an IDE to develop the project.</li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families.</li>
 </ul>
+
+**Testing**
+
 
 ---
 ## Deployment
@@ -170,7 +188,7 @@ For the rest of the content, the more readable Open Sans has been used with a sa
 ## Acknowledgements
 <ul>
     <li>
-        Thank you to my mentor Akshat Garg who provided me with some resources to assist me in this project.
+        Thank you to my mentor <a href="https://github.com/akshatnitd" target="_blank">Akshat Garg</a> who provided me with some resources to assist me in this project.
     </li>
     <li>
         Thank you to <a href="https://codeinstitute.net/de/" target="_blank">Code Institute</a> for their program to become a full stack software developer allowing me to code this project after less than 3 weeks of learning.
