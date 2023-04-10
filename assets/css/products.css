@@ -44,6 +44,10 @@ article h3 {
     left: -60px;
 }
 
+summary {
+    padding-top: 15px;
+}
+
 summary em {
     cursor: pointer;
 }
