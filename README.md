@@ -9,7 +9,20 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
 ---
-## User Experience (UX)
+## Table of Contents
+<ol>
+    <li><a href="#user-experience">User experience</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#bugs">Bugs</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#credits">Credits</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+</ol>
+
+---
+<h2 id="user-experience">User Experience (UX)</h2>
 **User stories**
 
 <ul>
@@ -53,7 +66,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 </ul>
 
 ---
-## Design
+<h2 id="design">Design</h2>
 
 **Design orientation**
 
@@ -90,7 +103,7 @@ The website has 5 pages accessible from the menu:
 The website also provide a thanks page only accessible after submiting the form.
 
 ---
-## Technologies Used
+<h2 id="technologies-used">Technologies Used</h2>
 **Languages**
 <ul>
     <li>HTML5</li>
@@ -107,7 +120,9 @@ The website also provide a thanks page only accessible after submiting the form.
     <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families.</li>
 </ul>
 
-**Validator Testing**
+---
+<h2 id="testing">Testing</h2>
+**Validator Testing for syntaxe errors**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="assets\images\w3c-css-validator-base.png">
@@ -152,14 +167,14 @@ The file base.css has been imported in all of the following tested css file. The
 At last, all html and css file have returned 'no errors or warnings to show'. But it has not shown directly that result.
 <br><br>
 I wanted to add a hamburger menu to the navigation of the website without knowing that it was actually more a JavaScript thing.
-But because I did not want to give up on that feature, I have managed to find a way to make it work with css only. Nevertheless, nesting a label tag inside a list element created an error when checking the HTML code. To fix that issue, I simply replaced the ul and li element with some div elements keeping the same parent-children relationship.
+But because I did not want to give up on that feature, I have managed to find a way to make it work with css only. Nevertheless, nesting a label tag inside a list element created an error when checking the HTML code. To fix that issue, I simply replaced the ul and li elements with some div elements keeping the same parent-children relationship.
 <br><br>
-Another error I encounter has been related to the iframe element I insert from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width with some percentages. To fix it I just put back some digits only. The map was not responsive anymore but it did not seem to be a problem. If it would be an easy way to fix it might be to use a few iframes with different dimensions and display them regarding the size of the screen.
+Another error I encountered has been related to the iframe element I inserted from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width with some percentages. This practice generated an error on the validator. To fix it I just put back some digits only. The map was not responsive anymore but it did not seem to be a problem. If it would be, an easy way to fix it might be to use a few iframes with different dimensions and display them regarding the size of the screen.
 <br><br>
 I also had some issue while using the section element. It did not generate errors but some warnings. The origin of that issue was that the section elements should only be used with headings nested inside them. It was not always my case and when it was, the headings were not direct children but nested inside a div element, itself nested inside the section elements. To get rid of those warnings, I just replaced the section elements with some div elements.
 <br><br>
 
-**lighthouse testing**
+**lighthouse testing for accessibility**
 <ol>
     <li>Landing page
         <ul>
@@ -338,14 +353,15 @@ I also had some issue while using the section element. It did not generate error
 </ul>
 
 
-**Further testing**
+**Further testing for responsiveness and cross-browsers compatibility**
 <ul>
     <li>The Website has been tested on Google Chrome, Firefox and Safari browsers.</li>
     <li>The Website was viewed on a smartphone Android, iPhone, tablet Android, Lenovo desktop, MacBook.</li>
     <li>All links have been tested and work perfectly.</li>
 </ul>
 
-**Known Bugs**
+---
+<h2 id="bugs">Known Bugs</h2>
 <ul>
     <li>For some reasons, the pictures on the products and on the events pages have a small gap at the bottom which is not intended. I did not find how to fix it.</li>
     <li>On the form, the submit and reset input keep their css properties with the hover values while using a touch screens. I think a small screens first approach while coding the css file would be the best way to fix this issue.</li>
@@ -353,7 +369,7 @@ I also had some issue while using the section element. It did not generate error
 
 
 ---
-## Deployment
+<h2 id="deployment">Deployment</h2>
 **How this site was deployed**
 <ul>
     <li>
@@ -389,7 +405,7 @@ I also had some issue while using the section element. It did not generate error
 </ul>
 
 ---
-## Credits
+<h2 id="credits">Credits</h2>
 **Content**
 <ul>
     <li>
@@ -427,7 +443,7 @@ I also had some issue while using the section element. It did not generate error
 </ul>
 
 ---
-## Acknowledgements
+<h2 id="acknowledgements">Acknowledgements</h2>
 <ul>
     <li>
         Thank you to my mentor <a href="https://github.com/akshatnitd" target="_blank">Akshat Garg</a> who provided me with some resources to assist me in this project.
