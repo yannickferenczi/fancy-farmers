@@ -259,6 +259,85 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ol>
 
+**Testing the Features with the User Stories from the User Experience section above**
+
+<ul>
+    <li>
+        First Time Visitor Goals
+        <ol>
+            <li>As a First Time Visitor, I want to easily understand the main purpose of the website and learn more about the organisation.
+                <ul>
+                    <li>The landing page is clean and sober with only a few information. It gives a light feeling and allow users to quickly find the purpose of the Website: "Your organic products directly from our bio farm!"<img src="assets/images/landing-page-screen-shot.png">
+                    </li>
+                    <li>The about page comes straight next to the landing page on the menu, catching quickly the attention of users and inviting them to learn more about the organisation.
+                    </li>
+                </ul>
+            </li>
+            <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+                <ul>
+                    <li>Users can easily notice the navigation menu, as a bar on bigger screens and an expected hamburger icon on smaller screens, on every page of the website.
+                    </li>
+                    <li>Users can always know on which page they are with only a quick look at the navigation menu.<img src="assets/images/hamburger-nav-menu.png">
+                    </li>
+                    <li>The navigation menu, on any device, stick to the top allowing users to always have the ability to click to another page even if they have scrolled on the very bottom of a long page.
+                    </li>
+                </ul>
+            </li>
+            <li>As a First Time Visitor, I want to easily find where the farm is located to know if I can easily go there.
+                <ul>
+                    <li>Users can find a clickable map with the location of the farm directly on the landing page allowing them to open it in their navigation app and quickly know how far they are from the farm.
+                    </li>
+                    <li>Users can find the contact details of the farm on the landing page and on the contact page, with a clickable phone number allowing them to easily make a phone call to our customer service.<img src="assets/images/contact-details.png">
+                    </li>
+                </ul>
+            </li>
+            <li>As a First Time Visitor, I want to easily find the prices of their products and events.
+                <ul>
+                    <li>Users looking for products can easily go to the products page using the well described navigation menu.<img src="assets/images/available-products.png">
+                    </li>
+                    <li>When landed on the right page, users can click on the "currently available products" call for action to display the list of products available and their prices.
+                    </li>
+                    <li>Users looking for events can easily go to the events page using the well described navigation menu.<img src="assets/images/events.png">
+                    </li>
+                    <li>From the events page, prices and date of events are clearly displayed.
+                    </li>
+                </ul>
+            </li>
+            <li>As a First Time Visitor, I want to easily find their organisation on social media to see how active they are and found feedback from current customers.
+                <ul>
+                    <li>Users can find the social media links, each identified with their recognizable logo, on the bottom of every page.<img src="assets/images/social-media-links.png">
+                    </li>
+                    <li>The links of the social media open in new tabs and does not disconnect users from the current website.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li>
+        Returning Visitor Goals
+        <ol>
+            <li>As a Returning Visitor, I want to find the seasonnal products I want to purchase currently.
+            </li>
+            <li>As a Returning Visitor, I want to find the up coming events organised at the farm.
+            </li>
+            <li>As a Returning Visitor, I want to easily find a few different ways to contact the organisation.
+            </li>
+            <li>As a Returning Visitor, I want to find links to their social media.
+            </li>
+        </ol>
+    </li>
+    <li>
+        Frequent User Goals
+        <ol>
+            <li>As a Frequent User, I want to know their currently available products.
+            </li>
+            <li>As a Frequent User, I want to know what are the up coming events organised at the farm.
+            </li>
+        </ol>
+    </li>
+</ul>
+
+
 **Further testing**
 <ul>
     <li>The Website has been tested on Google Chrome, Firefox and Safari browsers.</li>
@@ -329,6 +408,9 @@ I also had some issue while using the section element. It did not generate error
     <li>
         The CSS code to format the images on <a href="https://yannickferenczi.github.io/fancy-farmers/our_products.html">Our products</a> and on <a href="https://yannickferenczi.github.io/fancy-farmers/our_events.html">Our events</a> come from <a href="https://www.w3schools.com/css/css3_images.asp">this page</a>.
     </li>
+    <li>
+     the <a href="https://github.com/Code-Institute-Solutions/SampleREADME#colour-scheme">Code-Institute-Solution/SampleREADME</a> has been used as a base to elaborate this README.md file.
+    </li>
 </ul>
 
 **Media**
@@ -340,10 +422,7 @@ I also had some issue while using the section element. It did not generate error
         The fonts used were imported from <a href="https://fonts.google.com/">Google Fonts</a>.
     </li>
     <li>
-        All images were downloaded for free from <a href="https://www.pexels.com/">Pexels</a> :
-        <ul>
-            <li></li>
-        </ul>
+        All images were downloaded for free from <a href="https://www.pexels.com/">Pexels</a>.
     </li>
 </ul>
 
