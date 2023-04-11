@@ -107,7 +107,7 @@ The website also provide a thanks page only accessible after submiting the form.
     <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families.</li>
 </ul>
 
-**Testing**
+**Validator Testing**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="assets\images\w3c-css-validator-base.png">
@@ -157,6 +157,107 @@ But because I did not want to give up on that feature, I have managed to find a 
 Another error I encounter has been related to the iframe element I insert from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width with some percentages. To fix it I just put back some digits only. The map was not responsive anymore but it did not seem to be a problem. If it would be an easy way to fix it might be to use a few iframes with different dimensions and display them regarding the size of the screen.
 <br><br>
 I also had some issue while using the section element. It did not generate errors but some warnings. The origin of that issue was that the section elements should only be used with headings nested inside them. It was not always my case and when it was, the headings were not direct children but nested inside a div element, itself nested inside the section elements. To get rid of those warnings, I just replaced the section elements with some div elements.
+<br><br>
+
+**lighthouse testing**
+<ol>
+    <li>Landing page
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-index-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets/images/lighthouse-index-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+    <li>About us
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-about-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets/images/lighthouse-about-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+    <li>Our products
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-products-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets/images/lighthouse-products-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+    <li>Our events
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-events-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets\images\lighthouse-events-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+    <li>Contact us
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-contact-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets\images\lighthouse-contact-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+    <li>Thanks
+        <ul>
+            <li>
+                <details>
+                    <summary>See desktop result</summary>
+                    <img src="assets/images/lighthouse-thanks-desktop.png">
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>See mobile result</summary>
+                    <img src="assets/images/lighthouse-thanks-mobile.png">
+                </details>
+            </li>
+        </ul>
+    </li>
+</ol>
 
 ---
 ## Deployment
