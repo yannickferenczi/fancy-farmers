@@ -259,6 +259,20 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ol>
 
+**Further testing**
+<ul>
+    <li>The Website has been tested on Google Chrome, Firefox and Safari browsers.</li>
+    <li>The Website was viewed on a smartphone Android, iPhone, tablet Android, Lenovo desktop, MacBook.</li>
+    <li>All links have been tested and work perfectly.</li>
+</ul>
+
+**Known Bugs**
+<ul>
+    <li>For some reasons, the pictures on the products and on the events pages have a small gap at the bottom which is not intended. I did not find how to fix it.</li>
+    <li>On the form, the submit and reset input keep their css properties with the hover values while using a touch screens. I think a small screens first approach while coding the css file would be the best way to fix this issue.</li>
+</ul>
+
+
 ---
 ## Deployment
 **How this site was deployed**
