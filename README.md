@@ -149,6 +149,14 @@ The file base.css has been imported in all of the following tested css file. The
         </ul>
     </li>
 </ol>
+At last, all html and css file have returned 'no errors or warnings to show'. But it has not shown directly that result.
+<br><br>
+I wanted to add a hamburger menu to the navigation of the website without knowing that it was actually more a JavaScript thing.
+But because I did not want to give up on that feature, I have managed to find a way to make it work with css only. Nevertheless, nesting a label tag inside a list element created an error when checking the HTML code. To fix that issue, I simply replaced the ul and li element with some div elements keeping the same parent-children relationship.
+<br><br>
+Another error I encounter has been related to the iframe element I insert from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width with some percentages. To fix it I just put back some digits only. The map was not responsive anymore but it did not seem to be a problem. If it would be an easy way to fix it might be to use a few iframes with different dimensions and display them regarding the size of the screen.
+<br><br>
+I also had some issue while using the section element. It did not generate errors but some warnings. The origin of that issue was that the section elements should only be used with headings nested inside them. It was not always my case and when it was, the headings were not direct children but nested inside a div element, itself nested inside the section elements. To get rid of those warnings, I just replaced the section elements with some div elements.
 
 ---
 ## Deployment
