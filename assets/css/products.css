@@ -201,4 +201,18 @@ img {
     .right-items {
         border-radius: 0;
     }
+
+    .left-items h3 {
+        text-align: center;
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .right-items h3 {
+        text-align: center;
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
