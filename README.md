@@ -102,6 +102,21 @@ The website has 5 pages accessible from the menu:
 </ul>
 The website also provide a thanks page only accessible after submiting the form.
 
+**Wireframes**
+
+<ul>
+    <li>The landing page, index.html:
+    <img src="assets/images/wireframe-index.png"></li>
+    <li>The about page, about.html:
+    <img src="assets/images/wireframe-about.png"></li>
+    <li>The products page, products.html:
+    <img src="assets/images/wireframe-products.png"></li>
+    <li>The events page, events.html:
+    <img src="assets/images/wireframe-events.png"></li>
+    <li>The contact page, contact.html:
+    <img src="assets/images/wireframe-contact.png"></li>
+</ul>
+
 ---
 <h2 id="technologies-used">Technologies Used</h2>
 **Languages**
