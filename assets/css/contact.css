@@ -56,7 +56,8 @@ select {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
-    padding: 1px;
+    padding-left: 15px;
+    box-sizing: border-box;
 }
 
 textarea {
@@ -66,7 +67,7 @@ textarea {
 
 .react-on-action:hover {
     border: 3px solid #0B6801;
-    padding: 0;
+    padding-left: 15px;
 }
 
 .react-on-action:focus {
@@ -109,10 +110,12 @@ textarea {
 
 .submit-btn:hover {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .reset-btn:hover {
     background-color: red;
+    cursor: pointer;
 }
 
 /* media queries */
@@ -148,7 +151,7 @@ textarea {
 /* 600px and smaller */
 @media screen and (max-width: 600px) {
     form {
-        padding: 0 20% 150px;
+        padding: 0 5% 150px;
     }
 
     form div {
