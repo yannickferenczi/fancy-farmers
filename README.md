@@ -23,7 +23,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
 <hr>
 <h2 id="user-experience">User Experience (UX)</h2>
-**User stories**
+<strong>User stories</strong>
 
 <ul>
     <li>
@@ -68,11 +68,11 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 <hr>
 <h2 id="design">Design</h2>
 
-**Design orientation**
+<strong>Design orientation</strong>
 
 The Website has been designed to communicate the feeling of nature and peace while the first goal is to show the user the proximity of the farm and how easy it is to have fresh and healthy products every week.
 
-**Colours**
+<strong>Colours</strong>
 
 Regarding the colours, a darkgreen and a violet have been used for the logo to associate the nature with the quality. In fact, the green brings Harmony, refreshment, environmental awareness and peace and the violet brings Spiritual awareness, luxury, authenticity and quality.
 Those two colours, combined with the yellow create a triadic colour, in which the yellow brings the energy.
@@ -83,13 +83,13 @@ Finally, a cover picture with a big blue sky has been used on the landing page t
 
 Because those colours are very strong and have a strong contrast together some black and white have been used to separate those colours and therefore use the full power of their association.
 
-**Fonts**
+<strong>Fonts</strong>
 
 Oleo Script Swash Caps has been used for the logo to communicate our elegance and break down some stereotypes associated to farmers. It has also been used for the headings to keep a certain consistency through the website. Cursive has been use as a fallback.
 
 For the rest of the content, the more readable Open Sans has been used with a sans-serif as fallback. Open Sans has been used because it was a good recommendation to associate it to the Oleo Script Swash Caps font.
 
-**Structure**
+<strong>Structure</strong>
 
 A common structure is used over all pages and contains a Header, with the logo and the menu, and a Footer, with the copyright and the social media links.
 The website has 5 pages accessible from the menu:
@@ -103,7 +103,7 @@ The website has 5 pages accessible from the menu:
 The website also provide a thanks page only accessible after submiting the form.
 <br><br>
 
-**Wireframes**
+<strong>Wireframes</strong>
 
 <ul>
     <li>The landing page, index.html, on desltop and mobile:
@@ -120,13 +120,13 @@ The website also provide a thanks page only accessible after submiting the form.
 
 <hr>
 <h2 id="technologies-used">Technologies Used</h2>
-**Languages**
+<strong>Languages</strong>
 <ul>
     <li>HTML5</li>
     <li>CSS3</li>
 </ul>
 
-**Frameworks and other Programs**
+<strong>Frameworks and other Programs</strong>
 <ul>
     <li><a href="https://app.corelvector.com/ target="_blank">Corel Vector</a> has been used for the wireframes and the favicon.</li>
     <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> has been used to display icons.</li>
@@ -138,7 +138,7 @@ The website also provide a thanks page only accessible after submiting the form.
 
 <hr>
 <h2 id="testing">Testing</h2>
-**Validator Testing for syntaxe errors**
+<strong>Validator Testing for syntaxe errors</strong>
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="assets\images\w3c-css-validator-base.png">
@@ -190,7 +190,7 @@ Another error I encountered has been related to the iframe element I inserted fr
 I also had some issue while using the section element. It did not generate errors but some warnings. The origin of that issue was that the section elements should only be used with headings nested inside them. It was not always my case and when it was, the headings were not direct children but nested inside a div element, itself nested inside the section elements. To get rid of those warnings, I just replaced the section elements with some div elements.
 <br><br>
 
-**lighthouse testing for accessibility**
+<strong>lighthouse testing for accessibility & performance</strong>
 <ol>
     <li>Landing page
         <ul>
@@ -290,7 +290,7 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ol>
 
-**Testing the Features with the User Stories from the User Experience section above**
+<strong>Testing the Features along with the User Stories from the User Experience section above</strong>
 
 <ul>
     <li>
@@ -369,9 +369,9 @@ I also had some issue while using the section element. It did not generate error
 </ul>
 
 
-**Further testing for responsiveness and cross-browsers compatibility**
+<strong>Further testing for responsiveness and cross-browsers compatibility</strong>
 <ul>
-    <li>The Website has been tested on Google Chrome, Firefox and Safari browsers.</li>
+    <li>The Website has been tested on Google Chrome, Firefox, Edge and Safari browsers.</li>
     <li>The Website was viewed on a smartphone Android, iPhone, tablet Android, Lenovo desktop, MacBook.</li>
     <li>All links have been tested and work perfectly.</li>
 </ul>
@@ -386,7 +386,7 @@ I also had some issue while using the section element. It did not generate error
 
 <hr>
 <h2 id="deployment">Deployment</h2>
-**How this site was deployed**
+<strong>How this site was deployed</strong>
 <ul>
     <li>
         In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu.
@@ -404,7 +404,7 @@ I also had some issue while using the section element. It did not generate error
 
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
-**How to clone the repository**
+<strong>How to clone the repository</strong>
 <ul>
     <li>
         Go to the https://github.com/yannickferenczi/fancy-farmers repository on GitHub.
@@ -422,7 +422,7 @@ I also had some issue while using the section element. It did not generate error
 
 <hr>
 <h2 id="credits">Credits</h2>
-**Content**
+<strong>Content</strong>
 <ul>
     <li>
         Most of the content has been created using ChatGPT.
@@ -432,7 +432,7 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ul>
 
-**Code**
+<strong>Code</strong>
 <ul>
     <li>
         The hamburger menu, written in CSS only, has been inspired by <a href="https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/" target="_blank">this excellent code</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:checked" target="_blank">that one too</a>.
@@ -445,7 +445,7 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ul>
 
-**Media**
+<strong>Media</strong>
 <ul>
     <li>
         The icons in the footer and on the <a href="https://yannickferenczi.github.io/fancy-farmers/about_us.html" target="_blank">About us</a> page were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>.
