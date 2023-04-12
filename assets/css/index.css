@@ -45,6 +45,11 @@ address {
     height: 130px;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
 /* media queries */
 
 /* 900px and smaller */

@@ -9,7 +9,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
 <hr>
-## Table of Contents
+<h2>Table of Contents</h2>
 <ol>
     <li><a href="#user-experience">User experience</a></li>
     <li><a href="#design">Design</a></li>
