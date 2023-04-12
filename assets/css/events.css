@@ -145,7 +145,7 @@ img {
         text-align: center;
         width: 60%;
         left: 50%;
-        margin-left: -35%;
+        transform: translateX(-50%);
     }
     
     .left-items .course-bonfire,
