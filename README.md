@@ -8,7 +8,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
----
+<hr>
 ## Table of Contents
 <ol>
     <li><a href="#user-experience">User experience</a></li>
@@ -21,7 +21,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
     <li><a href="#acknowledgements">Acknowledgements</a></li>
 </ol>
 
----
+<hr>
 <h2 id="user-experience">User Experience (UX)</h2>
 **User stories**
 
@@ -65,7 +65,7 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
     </li>
 </ul>
 
----
+<hr>
 <h2 id="design">Design</h2>
 
 **Design orientation**
@@ -101,23 +101,24 @@ The website has 5 pages accessible from the menu:
     <li>A contact page with a form to provide the user with an easy way to contact the company</li>
 </ul>
 The website also provide a thanks page only accessible after submiting the form.
+<br><br>
 
 **Wireframes**
 
 <ul>
-    <li>The landing page, index.html:
+    <li>The landing page, index.html, on desltop and mobile:
     <img src="assets/images/wireframe-index.png"></li>
-    <li>The about page, about.html:
+    <li>The about page, about.html, on desltop and mobile:
     <img src="assets/images/wireframe-about.png"></li>
-    <li>The products page, products.html:
+    <li>The products page, products.html, on desltop and mobile:
     <img src="assets/images/wireframe-products.png"></li>
-    <li>The events page, events.html:
+    <li>The events page, events.html, on desltop and mobile:
     <img src="assets/images/wireframe-events.png"></li>
-    <li>The contact page, contact.html:
+    <li>The contact page, contact.html, on desltop and mobile:
     <img src="assets/images/wireframe-contact.png"></li>
 </ul>
 
----
+<hr>
 <h2 id="technologies-used">Technologies Used</h2>
 **Languages**
 <ul>
@@ -135,7 +136,7 @@ The website also provide a thanks page only accessible after submiting the form.
     <li><a href="https://fonts.google.com/">Google Fonts</a> was used to import the needed font-families.</li>
 </ul>
 
----
+<hr>
 <h2 id="testing">Testing</h2>
 **Validator Testing for syntaxe errors**
 
@@ -375,7 +376,7 @@ I also had some issue while using the section element. It did not generate error
     <li>All links have been tested and work perfectly.</li>
 </ul>
 
----
+<hr>
 <h2 id="bugs">Known Bugs</h2>
 <ul>
     <li>For some reasons, the pictures on the products and on the events pages have a small gap at the bottom which is not intended. I did not find how to fix it.</li>
@@ -383,7 +384,7 @@ I also had some issue while using the section element. It did not generate error
 </ul>
 
 
----
+<hr>
 <h2 id="deployment">Deployment</h2>
 **How this site was deployed**
 <ul>
@@ -419,7 +420,7 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ul>
 
----
+<hr>
 <h2 id="credits">Credits</h2>
 **Content**
 <ul>
@@ -457,7 +458,7 @@ I also had some issue while using the section element. It did not generate error
     </li>
 </ul>
 
----
+<hr>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <ul>
     <li>
