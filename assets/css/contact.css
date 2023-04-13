@@ -147,8 +147,9 @@ fieldset legend {
     padding-bottom: 15px;
 }
 
-.event-options > label {
-    margin-right: 15px;
+.event-options > div {
+    display: inline-block;
+    margin-left: 5%;
 }
 
 .events > input {
@@ -256,36 +257,39 @@ textarea {
 
 /* 600px and smaller */
 @media screen and (max-width: 600px) {
-    form {
-        padding: 0 5% 150px;
+    address {
+        margin: 40px 2%;
     }
 
-    form div {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    .div-message {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    form {
+        padding: 0 5%;
     }
 
     .full-name {
         clear: both;
     }
 
-    .submit-btn {
-        bottom: 90px;
-        left: 50%;
-        margin-left: -75px;
+    .personnal-information > div {
+        width: 90%;
     }
     
-    .reset-btn {
-        left: 50%;
-        margin-left: -75px;
+    .quantity {
+        display: none;
+    }
+
+    .event-options {
+        margin-left: 0;
+    }
+    
+    .event-options > div {
+        display: block;
+        margin-left: 0;
+    }
+    
+    .buttons > input {
+        display: block;
+        width: 80%;
+        max-width: 150px;
+        margin: 15px auto;
     }
 }
