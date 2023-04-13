@@ -174,31 +174,31 @@ The file base.css has been imported in all of the following tested css file. The
 <ol>
     <li>Landing page
         <ul>
-            <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Findex.html" target="_blank">W3C Markup Validator - Results</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Findex.html" target="_blank">W3C Markup Validator - Results</a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator - Results</a></li>
         </ul>
     </li>
     <li>About us
         <ul>
-            <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fabout.html" target="_blank">W3C Markup Validator - Results</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fabout.html" target="_blank">W3C Markup Validator - Results</a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator - Results</a></li>
         </ul>
     </li>
     <li>Our products
         <ul>
-            <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fproducts.html" target="_blank">W3C Markup Validator - Results</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fproducts.html" target="_blank">W3C Markup Validator - Results</a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fproducts.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator - Results</a></li>
         </ul>
     </li>
     <li>Our events
         <ul>
-            <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fevents.html" target="_blank">W3C Markup Validator - Results</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fevents.html" target="_blank">W3C Markup Validator - Results</a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fevents.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator - Results</a></li>
         </ul>
     </li>
     <li>Contact us
         <ul>
-            <li><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fcontact.html" target="_blank">W3C Markup Validator - Results</a></li>
+            <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fcontact.html" target="_blank">W3C Markup Validator - Results</a></li>
             <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fyannickferenczi.github.io%2Ffancy-farmers%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">W3C CSS Validator - Results</a></li>
         </ul>
     </li>
