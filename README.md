@@ -23,6 +23,18 @@ Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
 <hr>
 <h2 id="user-experience">User Experience (UX)</h2>
+
+<strong>Target Audience</strong>
+
+The target audience for the Fancy Farmers can include:
+<ol>
+    <li>Health-conscious individuals who prioritize the quality and nutritional value of the food they consume and are willing to pay a premium for organic, locally-sourced produce.</li>
+    <li>Environmentally-conscious consumers who are interested in reducing their carbon footprint and supporting sustainable farming practices.</li>
+    <li>Individuals and families who live in or near Cologne, Dusseldorf, or Dortmund and are looking for a convenient way to purchase fresh, organic produce without having to travel long distances.</li>
+    <li>Individuals who enjoy attending farm events and learning more about where their food comes from and how it is grown.</li>
+    <li>Restaurants and cafes in the area that are looking for high-quality, locally-sourced ingredients for their dishes.</li>
+</ol>
+
 <strong>User stories</strong>
 
 <ul>
