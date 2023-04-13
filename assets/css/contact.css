@@ -17,7 +17,6 @@ main header {
 
 address {
     background-color: rgba(255, 255, 255, 0.6);
-    width: 70%;
     margin: 30px 15%;
     text-align: center;
     box-shadow: 1px 1px 5px black;
@@ -133,6 +132,7 @@ fieldset legend {
     font-weight: 600;
 }
 
+/* Style for the event booking fieldset */
 .events {
     padding: 0 15px 15px;
 }
@@ -157,6 +157,7 @@ fieldset legend {
     border: 1px solid #0B6801;
 }
 
+/* Styling for the message fieldset */
 textarea {
     width: 100%;
     min-height: 100px;
@@ -168,6 +169,10 @@ textarea {
     box-sizing: border-box;
 }
 
+.div-message {
+    margin: 0 5% 15px;
+}
+
 .react-on-action:hover {
     border: 3px solid #0B6801;
     padding-left: 15px;
@@ -176,10 +181,6 @@ textarea {
 .react-on-action:focus {
     background-color: white;
     border: 3px solid #0B6801;
-}
-
-.div-message {
-    margin: 0 5% 15px;
 }
 
 .buttons {
@@ -231,24 +232,26 @@ textarea {
     }
 
     address {
-        margin: 40px 0;
+        margin: 40px 10%;
     }
 
-    .submit-btn {
-        left: 15%;
+    .buttons {
+        margin: 0 10%;
+        padding: 3px;
+        text-align: center;
     }
     
-    .reset-btn {
-        right: 15%;
+    .subject-item {
+        padding: 0 2%;
     }
 
-    .submit-btn:hover {
-        font-size: 30px;
+    .events > p {
+        display: block;
     }
-    
-    .reset-btn:hover {
-        background-color: red;
-    }    
+
+    .events > input {
+        margin-left: 15%;
+    }
 }
 
 /* 600px and smaller */
