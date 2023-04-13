@@ -80,6 +80,10 @@ iframe {
 
 /* 600px and smaller */
 @media screen and (max-width: 600px) {
+    body {
+        background-position-x: -310px;
+    }
+
     main > div {
         width: 100%;
     }
