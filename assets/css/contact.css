@@ -1,5 +1,27 @@
 @import "base.css";
 
+/* TESTING NEW FEATURE */
+
+.order-details,
+.booking-details {
+    width: 600px;
+    background-color: aqua;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+#order-products:checked ~ .order-details {
+    max-height: 100%;
+}
+
+#book-event:checked ~ .booking-details {
+    max-height: 100%;
+}
+
+/* END OF TESTING */
+
+
 /* main section */
 main {
     background-color: rgba(255, 255, 255, 0.4);
