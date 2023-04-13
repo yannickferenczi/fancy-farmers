@@ -103,6 +103,23 @@ The website has 5 pages accessible from the menu:
 The website also provide a thanks page only accessible after submiting the form.
 <br><br>
 
+<strong>Features</strong>
+
+<ul>
+    <li>The website has a favicon to help the user find easily the website back, even after opening an external link (which would open in a new tab).</li>
+    <li>The website has an evolutive title to help the user know which page is currently open, even from another tab of the browser.</li>
+    <li>The website has a responsive logo on every page to vehicle the identity of the company in every size.</li>
+    <li>The website has a responsive menu on every page displayed inline on bigger screens and under a hamburger icon on smaller screens.</li>
+    <li>The website has a social media section on every page to give the user the opportunity to connect with our community.</li>
+    <li>The main page of the website has a background image representing the family farm of Fancy Farmers.</li>
+    <li>On the products page, the user can click on a button to display the list and prices of products currently available.</li>
+    <li>From the products page, the user can click on an internal link leading to the contact form.</li>
+    <li>The products page also describes and promotes the products of the farm.</li>
+    <li>The events page describe the upcoming events and integrates internal links as well for the user to go straight away to the contact form if they wish to book one of them.</li>
+    <li>The contact page has been implemented in such a way that the user can either ask for more information or book a spot to one of our events or even create their basket with fresh products to be delivered.</li>
+    <li>The landing page as well as the contact page display the address and phone number of the company to give all chances to the user to be in touch if wanted.</li>
+</ul>
+
 <strong>Wireframes</strong>
 
 <ul>
