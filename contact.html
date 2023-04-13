@@ -43,7 +43,7 @@
             <p><a class="phone-number" href="tel:+49165789456">+49 165 789 456</a></p>
         </address>
         <form action="thanks.html" method="GET">
-            <fieldset>
+            <fieldset class="personnal-information">
                 <legend>Personal information</legend>
                 <div class="full-name">
                     <label for="first-name">First Name</label>
@@ -58,205 +58,192 @@
                     <input class="react-on-action" id="email" type="email" name="email" placeholder="Enter your email address" required>
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset class="subject">
                 <legend>Subject</legend>
                 <div class="select-subject">
-                    <p>Your request is about </p>
-                    <div class="order-products">
-                        <label for="order-products">Ordering fresh products</label>
-                        <input id="order-products" type="radio" name="subject" value="order-products" required>
+                    <p>Your request is about: </p>
+                    <div class="order-products subject-item">
+                        <input class="subject-choice" id="order-products" type="radio" name="subject" value="order-products" required>
+                        <label class="subject-choice" for="order-products">Ordering fresh products</label>
                         <div class="order-details">
                         <fieldset>
                             <legend>Eggs</legend>
                             <div class="shopping-element">
-                                <label for="jumbo-egg">Chicken egg - Jumbo</label>
-                                <input id="jumbo-egg" type="checkbox" name="jumbo-egg" value="true">
+                                <label for="jumbo">Chicken egg - Jumbo</label>
                                 <p>quantity: </p>
-                                <input id="jumbo-quantity" type="number" name="jumbo-quantity" min="0" max="12" step="1">
-                                <label for="jumbo-quantity">eggs</label>
+                                <input id="jumbo" type="number" name="jumbo" min="0" max="12" step="1">
+                                <p>eggs (max: 12)</p>
                             </div>
                             <div class="shopping-element">
-                                <label for="extra-egg">Chicken egg - Extra</label>
-                                <input id="extra-egg" type="checkbox" name="extra-egg" value="true">
+                                <label for="extra">Chicken egg - Extra</label>
                                 <p>quantity: </p>
-                                <input id="extra-quantity" type="number" name="extra-quantity" min="0" max="12" step="1">
-                                <label for="extra-quantity">eggs</label>
+                                <input id="extra" type="number" name="extra" min="0" max="12" step="1">
+                                <p>eggs (max: 12)</p>
                             </div>
                             <div class="shopping-element">
-                                <label for="large-egg">Chicken egg - Large</label>
-                                <input id="large-egg" type="checkbox" name="large-egg" value="true">
+                                <label for="large">Chicken egg - Large</label>
                                 <p>quantity: </p>
-                                <input id="large-quantity" type="number" name="large-quantity" min="0" max="12" step="1">
-                                <label for="large-quantity">eggs</label>
+                                <input id="large" type="number" name="large" min="0" max="12" step="1">
+                                <p>eggs (max: 12)</p>
                             </div>
                             <div class="shopping-element">
-                                <label for="medium-egg">Chicken egg - Medium</label>
-                                <input id="medium-egg" type="checkbox" name="medium-egg" value="true">
+                                <label for="medium">Chicken egg - Medium</label>
                                 <p>quantity: </p>
-                                <input id="medium-quantity" type="number" name="medium-quantity" min="0" max="12" step="1">
-                                <label for="medium-quantity">eggs</label>
+                                <input id="medium" type="number" name="medium" min="0" max="12" step="1">
+                                <p>eggs (max: 12)</p>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend>Vegetables</legend>
                             <div class="shopping-element">
                                 <label for="potatoes">Potatoes</label>
-                                <input id="potatoes" type="checkbox" name="potatoes" value="true">
                                 <p>quantity: </p>
-                                <input id="potatoes-quantity" type="number" name="potatoes-quantity" min="0" max="5000" step="100">
-                                <label for="potatoes-quantity">grams</label>
+                                <input id="potatoes" type="number" name="potatoes" min="0" max="5000" step="100">
+                                <p>grams (max: 5000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="carrot">Carrot</label>
-                                <input id="carrot" type="checkbox" name="carrot" value="true">
                                 <p>quantity: </p>
-                                <input id="carrot-quantity" type="number" name="carrot-quantity" min="0" max="5000" step="100">
-                                <label for="carrot-quantity">grams</label>
+                                <input id="carrot" type="number" name="carrot" min="0" max="5000" step="100">
+                                <p>grams (max: 5000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="zucchini">Zucchini</label>
-                                <input id="zucchini" type="checkbox" name="zucchini" value="true">
                                 <p>quantity: </p>
-                                <input id="zucchini-quantity" type="number" name="zucchini-quantity" min="0" max="5" step="1">
-                                <label for="zucchini-quantity">pieces</label>
+                                <input id="zucchini" type="number" name="zucchini" min="0" max="5" step="1">
+                                <p>pieces (max: 5)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="lettuce">Lettuce</label>
-                                <input id="lettuce" type="checkbox" name="lettuce" value="true">
                                 <p>quantity: </p>
-                                <input id="lettuce-quantity" type="number" name="lettuce-quantity" min="0" max="5" step="1">
-                                <label for="lettuce-quantity">pieces</label>
+                                <input id="lettuce" type="number" name="lettuce" min="0" max="5" step="1">
+                                <p>pieces (max: 5)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="tomato">Tomato</label>
-                                <input id="tomato" type="checkbox" name="tomato" value="true">
                                 <p>quantity: </p>
-                                <input id="tomato-quantity" type="number" name="tomato-quantity" min="0" max="2000" step="100">
-                                <label for="tomato-quantity">grams</label>
+                                <input id="tomato" type="number" name="tomato" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="green-bean">Green bean</label>
-                                <input id="green-bean" type="checkbox" name="green-bean" value="true">
                                 <p>quantity: </p>
-                                <input id="green-bean-quantity" type="number" name="green-bean-quantity" min="0" max="5000" step="100">
-                                <label for="green-bean-quantity">grams</label>
+                                <input id="green-bean" type="number" name="green-bean" min="0" max="5000" step="100">
+                                <p>grams (max: 5000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="onion">Onion</label>
-                                <input id="onion" type="checkbox" name="onion" value="true">
                                 <p>quantity: </p>
-                                <input id="onion-quantity" type="number" name="onion-quantity" min="0" max="2000" step="100">
-                                <label for="onion-quantity">grams</label>
+                                <input id="onion" type="number" name="onion" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="apple">Apple</label>
-                                <input id="apple" type="checkbox" name="apple" value="true">
                                 <p>quantity: </p>
-                                <input id="apple-quantity" type="number" name="apple-quantity" min="0" max="2000" step="100">
-                                <label for="apple-quantity">grams</label>
+                                <input id="apple" type="number" name="apple" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="cherry">Cherry</label>
-                                <input id="cherry" type="checkbox" name="cherry" value="true">
                                 <p>quantity: </p>
-                                <input id="cherry-quantity" type="number" name="cherry-quantity" min="0" max="2000" step="100">
-                                <label for="cherry-quantity">grams</label>
+                                <input id="cherry" type="number" name="cherry" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="pear">Pear</label>
-                                <input id="pear" type="checkbox" name="pear" value="true">
                                 <p>quantity: </p>
-                                <input id="pear-quantity" type="number" name="pear-quantity" min="0" max="2000" step="100">
-                                <label for="pear-quantity">grams</label>
+                                <input id="pear" type="number" name="pear" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="strawberry">Strawberry</label>
-                                <input id="strawberry" type="checkbox" name="strawberry" value="true">
                                 <p>quantity: </p>
-                                <input id="strawberry-quantity" type="number" name="strawberry-quantity" min="0" max="2000" step="100">
-                                <label for="strawberry-quantity">grams</label>
+                                <input id="strawberry" type="number" name="strawberry" min="0" max="2000" step="100">
+                                <p>grams (max: 2000)</p>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend>Dairy Products</legend>
                             <div class="shopping-element">
                                 <label for="milk">Milk (1L bottle)</label>
-                                <input id="milk" type="checkbox" name="milk" value="true">
                                 <p>quantity: </p>
-                                <input id="milk-quantity" type="number" name="milk-quantity" min="0" max="6" step="1">
-                                <label for="milk-quantity">bottles</label>
+                                <input id="milk" type="number" name="milk" min="0" max="6" step="1">
+                                <p>bottles (max: 6)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="yogurt">yogurt (150g)</label>
-                                <input id="yogurt" type="checkbox" name="yogurt" value="true">
                                 <p>quantity: </p>
-                                <input id="yogurt-quantity" type="number" name="yogurt-quantity" min="0" max="10" step="1">
-                                <label for="yogurt-quantity">pieces</label>
+                                <input id="yogurt" type="number" name="yogurt" min="0" max="10" step="1">
+                                <p>pieces (max: 10)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="fresh-cheese">Fresh cheese (300g)</label>
-                                <input id="fresh-cheese" type="checkbox" name="fresh-cheese" value="true">
                                 <p>quantity: </p>
-                                <input id="fresh-cheese-quantity" type="number" name="fresh-cheese-quantity" min="0" max="3" step="1">
-                                <label for="fresh-cheese-quantity">pieces</label>
+                                <input id="fresh-cheese" type="number" name="fresh-cheese" min="0" max="3" step="1">
+                                <p>pieces (max: 3)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="sour-cream">Sour cream (250g)</label>
-                                <input id="sour-cream" type="checkbox" name="sour-cream" value="true">
                                 <p>quantity: </p>
-                                <input id="sour-cream-quantity" type="number" name="sour-cream-quantity" min="0" max="5" step="1">
-                                <label for="sour-cream-quantity">pieces</label>
+                                <input id="sour-cream" type="number" name="sour-cream" min="0" max="5" step="1">
+                                <p>pieces (max: 5)</p>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend>Honey-based Products</legend>
                             <div class="shopping-element">
                                 <label for="honey">Honey (300g jar)</label>
-                                <input id="honey" type="checkbox" name="honey" value="true">
                                 <p>quantity: </p>
-                                <input id="honey-quantity" type="number" name="honey-quantity" min="0" max="2" step="1">
-                                <label for="honey-quantity">pieces</label>
+                                <input id="honey" type="number" name="honey" min="0" max="2" step="1">
+                                <p>pieces (max: 2)</p>
                             </div>
                             <div class="shopping-element">
                                 <label for="bonbons">Honey bonbons (250g packet)</label>
-                                <input id="bonbons" type="checkbox" name="bonbons" value="true">
                                 <p>quantity: </p>
-                                <input id="bonbons-quantity" type="number" name="bonbons-quantity" min="0" max="2" step="1">
-                                <label for="bonbons-quantity">packets</label>
+                                <input id="bonbons" type="number" name="bonbons" min="0" max="2" step="1">
+                                <p>packets (max: 2)</p>
                             </div>
                         </fieldset>
                         </div>
                     </div>
-                    <div class="book-event">
-                        <label for="book-event">Booking an event</label>
-                        <input id="book-event" type="radio" name="subject" value="book-event">
+                    <div class="book-event subject-item">
+                        <input class="subject-choice" id="book-event" type="radio" name="subject" value="book-event">
+                        <label class="subject-choice" for="book-event">Booking an event</label>
                         <div class="booking-details">
-                            <p>Which event would you like to book?</p>
-                            <label for="easter-monday">Easter Monday</label>
-                            <input id="easter-monday" type="radio" name="selected-event" value="easter-monday">
-                            <label for="labor-day">Labor Day</label>
-                            <input id="labor-day" type="radio" name="selected-event" value="labor-day">
-                            <p>I would like to book this event for: </p>
-                            <input id="person-quatity" type="number" name="person-quatity" min="0" max="5" step="1">
-                            <label for="person-quatity">persons</label>
-                        </div>
+                            <fieldset class="events">
+                                <legend>Events</legend>
+                                <div class="event-options">
+                                    <input id="easter-monday" type="radio" name="selected-event" value="easter-monday">
+                                    <label for="easter-monday">Easter Monday</label>
+                                    <input id="labor-day" type="radio" name="selected-event" value="labor-day">
+                                    <label for="labor-day">Labor Day</label>
+                                </div>
+                                <p>I would like to book this event for: </p>
+                                <input id="person-quatity" type="number" name="person-quatity" min="0" max="5" step="1">
+                                <label for="person-quatity">persons</label>
+                            </fieldset></div>
                     </div>
-                    <div class="feedback">
-                        <label for="feedback">Giving us feedback</label>
-                        <input id="feedback" type="radio" name="subject" value="feedback">
+                    <div class="feedback subject-item">
+                        <input class="subject-choice" id="feedback" type="radio" name="subject" value="feedback">
+                        <label class="subject-choice" for="feedback">Giving us feedback</label>
                     </div>
-                    <div class="other">
-                        <label for="other">Something else</label>
-                        <input id="other" type="radio" name="subject" value="other">
+                    <div class="other subject-item">
+                        <input class="subject-choice" id="other" type="radio" name="subject" value="other">
+                        <label class="subject-choice" for="other">Something else</label>
                     </div>
                 </div>
             </fieldset>
-            <div class="div-message">
-                <label for="message">Message</label>
-                <textarea class="react-on-action" name="message" placeholder="Ask for information, give us a feedback on what we can do better or send us some good vibes." id="message" required></textarea>
+            <fieldset>
+                <legend>Your Message</legend>
+                <div class="div-message">
+                    <label for="message"></label>
+                    <textarea class="react-on-action" name="message" placeholder="Ask for information, give us a feedback on what we can do better or send us some good vibes." id="message" required></textarea>
+                </div>
+            </fieldset>
+            <div class="buttons">
+                <input class="submit-btn" type="submit" value="Send">
+                <input class="reset-btn" type="reset" value="Cancel">
             </div>
-            <input class="submit-btn" type="submit" value="Send">
-            <input class="reset-btn" type="reset" value="Cancel">
         </form>
     </main>
     <footer>

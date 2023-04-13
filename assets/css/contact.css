@@ -1,27 +1,5 @@
 @import "base.css";
 
-/* TESTING NEW FEATURE */
-
-.order-details,
-.booking-details {
-    width: 600px;
-    background-color: aqua;
-    max-height: 0;
-    overflow: hidden;
-    padding: 0;
-}
-
-#order-products:checked ~ .order-details {
-    max-height: 100%;
-}
-
-#book-event:checked ~ .booking-details {
-    max-height: 100%;
-}
-
-/* END OF TESTING */
-
-
 /* main section */
 main {
     background-color: rgba(255, 255, 255, 0.4);
@@ -39,7 +17,8 @@ main header {
 
 address {
     background-color: rgba(255, 255, 255, 0.6);
-    margin: 30px 25%;
+    width: 70%;
+    margin: 30px 15%;
     text-align: center;
     box-shadow: 1px 1px 5px black;
     border-radius: 5px;
@@ -52,28 +31,37 @@ address {
 /* contact form */
 form {
     position: relative;
-    padding-bottom: 80px;
+    padding: 5px 0 15px;
     background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 1px 1px 5px black;
     border-radius: 5px;
 }
 
-form div {
-    width: 46%;
-    padding: 15px 2%;
+fieldset {
+    margin: 15px 2%;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-form label {
-    display: block;
-    padding-bottom: 5px;
+fieldset legend {
+    padding-bottom: 14px;
+    margin-left: 5%;
 }
 
-form input,
-textarea,
-select {
+.personnal-information > div {
+    width: 40%;
+    padding: 0 5%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.full-name {
+    float: left;
+}
+
+.personnal-information input {
     height: 30px;
     line-height: 30px;
-    margin: 3px 0;
     border: 2px solid #0B6801;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
@@ -82,9 +70,102 @@ select {
     box-sizing: border-box;
 }
 
+/* Style for the subject fieldset */
+.subject {
+    padding-bottom: 15px;
+}
+
+.select-subject > p {
+    margin: 0 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.subject-item {
+    padding: 0 10%;
+}
+
+.subject-choice {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.order-details,
+.booking-details {
+    max-height: 0;
+    overflow: hidden;
+}
+
+#order-products:checked ~ .order-details {
+    max-height: 100%;
+}
+
+#book-event:checked ~ .booking-details {
+    max-height: 100%;
+}
+
+.shopping-element {
+    padding: 0 15px 5px;
+}
+
+.shopping-element > * {
+    display: inline-block;
+}
+
+.shopping-element p {
+    line-height: 20px;
+    vertical-align: middle;
+    padding: 0 15px 15px;
+}
+
+.shopping-element > input {
+    line-height: 20px;
+    vertical-align: middle;
+    width: 20%;
+    text-align: right;
+    border: 1px solid #0B6801;
+}
+
+.shopping-element > label {
+    display: block;
+    font-weight: 600;
+}
+
+.events {
+    padding: 0 15px 15px;
+}
+
+.events > p {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.event-options {
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+.event-options > label {
+    margin-right: 15px;
+}
+
+.events > input {
+    margin-left: 5px;
+    text-align: right;
+    border: 1px solid #0B6801;
+}
+
 textarea {
-    height: 100px;
+    width: 100%;
+    min-height: 100px;
     line-height: 18px;
+    border: 2px solid #0B6801;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
 }
 
 .react-on-action:hover {
@@ -97,20 +178,20 @@ textarea {
     border: 3px solid #0B6801;
 }
 
-.full-name {
-    float: left;
+.div-message {
+    margin: 0 5% 15px;
 }
 
-.div-message {
-    width: 96%;
+.buttons {
+    margin: 0 20%;
+    padding: 3px;
+    text-align: center;
 }
 
 .submit-btn,
 .reset-btn {
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 24px;
-    position: absolute;
-    bottom: 10px;
     width: 150px;
     height: 50px;
     border-radius: 5px;
@@ -122,17 +203,17 @@ textarea {
     padding: 10px 0;
     background-color: #0B6801;
     color: white;
-    right: 28%;
+    margin-right: 15%;
 }
 
 .reset-btn {
-    right: 3%;
     padding: 8px 0;
 }
 
 .submit-btn:hover {
     font-size: 30px;
     cursor: pointer;
+    padding: 1px 0;
 }
 
 .reset-btn:hover {
