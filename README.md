@@ -122,7 +122,7 @@ The website also provide a thanks page only accessible after submiting the form.
     <li>The website has an evolutive title to help the user know which page is currently open, even from another tab of the browser.</li>
     <li>The website has a responsive logo on every page to vehicle the identity of the company in every size.</li>
     <li>The website has a responsive menu on every page displayed inline on bigger screens and under a hamburger icon on smaller screens.</li>
-    <li>The website has a social media section on every page to give the user the opportunity to connect with our community.</li>
+    <li>The website has a social media section on every page to give the user the opportunity to connect with the organization's community.</li>
     <li>The main page of the website has a background image representing the family farm of Fancy Farmers.</li>
     <li>On the products page, the user can click on a button to display the list and prices of products currently available.</li>
     <li>From the products page, the user can click on an internal link leading to the contact form.</li>
