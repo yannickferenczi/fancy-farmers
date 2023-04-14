@@ -4,7 +4,7 @@
 This is the marketing website to promote the Fancy Farmers company. It provides information about the Fancy Farmers, their products, their events and how to find them and contact them. It is a fully responsive website allowing customers to visit it from any device.
 Fancy Farmers is a farm company bio certified, located in nrw, Germany.
 
-<img src="assets/images/multi-mockup-index.jpg">
+<img src="readme-assets\multi-mockup-index.jpg">
 
 [Visit the live project here](https://yannickferenczi.github.io/fancy-farmers/index.html)
 
@@ -137,15 +137,15 @@ The website also provide a thanks page only accessible after submiting the form.
 The wireframes have been implemented using Corel Vector. The point in creating those wireframe was to have most of the content and colors in place before coding this project. The coding part would then be free of important design decisions and therefore more focus and efficient.
 <ul>
     <li>The landing page, index.html, on desltop and mobile:
-    <img src="assets/images/wireframe-index.png"></li>
+    <img src="readme-assets\wireframe-index.png"></li>
     <li>The about page, about.html, on desltop and mobile:
-    <img src="assets/images/wireframe-about.png"></li>
+    <img src="readme-assets\wireframe-about.png"></li>
     <li>The products page, products.html, on desltop and mobile:
-    <img src="assets/images/wireframe-products.png"></li>
+    <img src="readme-assets\wireframe-products.png"></li>
     <li>The events page, events.html, on desltop and mobile:
-    <img src="assets/images/wireframe-events.png"></li>
+    <img src="readme-assets\wireframe-events.png"></li>
     <li>The contact page, contact.html, on desltop and mobile:
-    <img src="assets/images/wireframe-contact.png"></li>
+    <img src="readme-assets\wireframe-contact.png"></li>
 </ul>
 
 <hr>
@@ -172,7 +172,7 @@ The wireframes have been implemented using Corel Vector. The point in creating t
 <strong>Validator Testing for syntaxe errors</strong>
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="assets\images\w3c-css-validator-base.png">
+The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="readme-assets\w3c-css-validator-base.png">
 
 <ol>
     <li>Landing page
@@ -231,13 +231,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-index-desktop.png">
+                    <img src="readme-assets\lighthouse-index-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets/images/lighthouse-index-mobile.png">
+                    <img src="readme-assets\lighthouse-index-mobile.png">
                 </details>
             </li>
         </ul>
@@ -247,13 +247,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-about-desktop.png">
+                    <img src="readme-assets\lighthouse-about-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets/images/lighthouse-about-mobile.png">
+                    <img src="readme-assets\lighthouse-about-mobile.png">
                 </details>
             </li>
         </ul>
@@ -263,13 +263,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-products-desktop.png">
+                    <img src="readme-assets\lighthouse-products-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets/images/lighthouse-products-mobile.png">
+                    <img src="readme-assets\lighthouse-products-mobile.png">
                 </details>
             </li>
         </ul>
@@ -279,13 +279,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-events-desktop.png">
+                    <img src="readme-assets\lighthouse-events-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets\images\lighthouse-events-mobile.png">
+                    <img src="readme-assets\lighthouse-events-mobile.png">
                 </details>
             </li>
         </ul>
@@ -295,13 +295,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-contact-desktop.png">
+                    <img src="readme-assets\lighthouse-contact-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets\images\lighthouse-contact-mobile.png">
+                    <img src="readme-assets\lighthouse-contact-mobile.png">
                 </details>
             </li>
         </ul>
@@ -311,13 +311,13 @@ I also had some issue while using the section element. It did not generate error
             <li>
                 <details>
                     <summary>See desktop result</summary>
-                    <img src="assets/images/lighthouse-thanks-desktop.png">
+                    <img src="readme-assets\lighthouse-thanks-desktop.png">
                 </details>
             </li>
             <li>
                 <details>
                     <summary>See mobile result</summary>
-                    <img src="assets/images/lighthouse-thanks-mobile.png">
+                    <img src="readme-assets\lighthouse-thanks-mobile.png">
                 </details>
             </li>
         </ul>
@@ -332,7 +332,7 @@ I also had some issue while using the section element. It did not generate error
         <ol>
             <li>As a First Time Visitor, I want to easily understand the main purpose of the website and learn more about the organisation.
                 <ul>
-                    <li>The landing page is clean and sober with only a few information. It gives a light feeling and allow users to quickly find the purpose of the Website: "Your organic products directly from our bio farm!"<img src="assets/images/landing-page-screen-shot.png">
+                    <li>The landing page is clean and sober with only a few information. It gives a light feeling and allow users to quickly find the purpose of the Website: "Your organic products directly from our bio farm!"<img src="readme-assets\landing-page-screen-shot.png">
                     </li>
                     <li>The about page comes straight next to the landing page on the menu, catching quickly the attention of users and inviting them to learn more about the organisation.
                     </li>
@@ -342,7 +342,7 @@ I also had some issue while using the section element. It did not generate error
                 <ul>
                     <li>Users can easily notice the navigation menu, as a bar on bigger screens and an expected hamburger icon on smaller screens, on every page of the website.
                     </li>
-                    <li>Users can always know on which page they are with only a quick look at the navigation menu.<img src="assets/images/hamburger-nav-menu.png">
+                    <li>Users can always know on which page they are with only a quick look at the navigation menu.<img src="readme-assets\hamburger-nav-menu.png">
                     </li>
                     <li>The navigation menu, on any device, stick to the top allowing users to always have the ability to click to another page even if they have scrolled on the very bottom of a long page.
                     </li>
@@ -352,17 +352,17 @@ I also had some issue while using the section element. It did not generate error
                 <ul>
                     <li>Users can find a clickable map with the location of the farm directly on the landing page allowing them to open it in their navigation app and quickly know how far they are from the farm.
                     </li>
-                    <li>Users can find the contact details of the farm on the landing page and on the contact page, with a clickable phone number allowing them to easily make a phone call to our customer service.<img src="assets/images/contact-details.png">
+                    <li>Users can find the contact details of the farm on the landing page and on the contact page, with a clickable phone number allowing them to easily make a phone call to our customer service.<img src="readme-assets\contact-details.png">
                     </li>
                 </ul>
             </li>
             <li>As a First Time Visitor, I want to easily find the prices of their products and events.
                 <ul>
-                    <li>Users looking for products can easily go to the products page using the well described navigation menu.<img src="assets/images/available-products.png">
+                    <li>Users looking for products can easily go to the products page using the well described navigation menu.<img src="readme-assets\available-products.png">
                     </li>
                     <li>When landed on the right page, users can click on the "currently available products" call for action to display the list of products available and their prices.
                     </li>
-                    <li>Users looking for events can easily go to the events page using the well described navigation menu.<img src="assets/images/events.png">
+                    <li>Users looking for events can easily go to the events page using the well described navigation menu.<img src="readme-assets\events.png">
                     </li>
                     <li>From the events page, prices and date of events are clearly displayed.
                     </li>
@@ -370,7 +370,7 @@ I also had some issue while using the section element. It did not generate error
             </li>
             <li>As a First Time Visitor, I want to easily find their organisation on social media to see how active they are and found feedback from current customers.
                 <ul>
-                    <li>Users can find the social media links, each identified with their recognizable logo, on the bottom of every page.<img src="assets/images/social-media-links.png">
+                    <li>Users can find the social media links, each identified with their recognizable logo, on the bottom of every page.<img src="readme-assets\social-media-links.png">
                     </li>
                     <li>The links of the social media open in new tabs and does not disconnect users from the current website.
                     </li>
@@ -383,21 +383,21 @@ I also had some issue while using the section element. It did not generate error
         <ol>
             <li>As a Returning Visitor, I want to find the seasonnal products I want to purchase currently.
                 <ul>
-                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="assets/images/available-products-access.png">
+                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="readme-assets\available-products-access.png">
                     </li>
-                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="assets/images/products-categories.png">
+                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="readme-assets\products-categories.png">
                     </li>
                 </ul>
             </li>
             <li>As a Returning Visitor, I want to find the up coming events organised at the farm.
                 <ul>
-                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="assets/images/events-highlighted.png">
+                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="readme-assets\events-highlighted.png">
                     </li>
                 </ul>
             </li>
             <li>As a Returning Visitor, I want to easily find a few different ways to contact the organisation.
                 <ul>
-                    <li>From the landing page, users are invited to contact the Fancy Farmers with the address and phone number displayed direct next to the map. On the contact page, users can also, as one of the first information displayed, find the address and phone number. While navigating on the website, users will also find some invitations to contact the organization by clicking on links leading them to the contact page.<img src="assets/images/contact-options.png">
+                    <li>From the landing page, users are invited to contact the Fancy Farmers with the address and phone number displayed direct next to the map. On the contact page, users can also, as one of the first information displayed, find the address and phone number. While navigating on the website, users will also find some invitations to contact the organization by clicking on links leading them to the contact page.<img src="readme-assets\contact-options.png">
                     </li>
                 </ul>
             </li>
@@ -408,21 +408,21 @@ I also had some issue while using the section element. It did not generate error
         <ol>
             <li>As a Frequent User, I want to know their currently available products.
                 <ul>
-                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="assets/images/available-products-access.png">
+                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="readme-assets\available-products-access.png">
                     </li>
-                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="assets/images/products-categories.png">
+                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="readme-assets\products-categories.png">
                     </li>
                 </ul>
             </li>
             <li>As a Frequent User, I want to know what are the up coming events organised at the farm.
                 <ul>
-                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="assets/images/events-highlighted.png">
+                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="readme-assets\events-highlighted.png">
                     </li>
                 </ul>
             </li>
             <li>As a Frequent User, I want to have an easy way of purchasing their products or booking for their events.
                 <ul>
-                    <li>Users who wish to book an event or purchase products will be able to submit their request via the contact form. The request will be treated and the users will get further information about how their request will be processed per email.<img src="assets/images/booking-and-ordering.png">
+                    <li>Users who wish to book an event or purchase products will be able to submit their request via the contact form. The request will be treated and the users will get further information about how their request will be processed per email.<img src="readme-assets\booking-and-ordering.png">
                     </li>
                 </ul>
             </li>
