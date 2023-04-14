@@ -438,8 +438,10 @@ I also had some issue while using the section element. It did not generate error
 <hr>
 <h2 id="bugs">Known Bugs</h2>
 <ul>
-    <li>For some reasons, the pictures on the products and on the events pages have a small gap at the bottom which is not intended. I did not find how to fix it.</li>
+    <li>For some reasons, the pictures on the products and on the events pages had a small gap at the bottom which was not intended. I fixed that issue with the transform property, giving it a scale value to zoom into the images.</li>
     <li>On the form, the submit and reset input keep their css properties with the hover values while using a touch screens. I think a small screens first approach while coding the css file would be the best way to fix this issue.</li>
+    <li>The background image of the landing page has a landscape format. For that reason, on mobile screens, the part which was displayed was not really nice and relevant. I fixed that issue using the background-position-x property.</li>
+    <li>On the thanks page, the background image is too big and generates a vertical scrolling bar, which is not really an issue itself. But if the user would scroll, the thanks message would go up leaving an empty page. To fix that issue, I gave that message a fixed value to its display property.</li>
 </ul>
 
 
