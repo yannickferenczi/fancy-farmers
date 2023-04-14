@@ -160,6 +160,7 @@ The wireframes have been implemented using Corel Vector. The point in creating t
 <ul>
     <li><a href="https://app.corelvector.com/ target="_blank">Corel Vector</a> has been used for the wireframes and the favicon.</li>
     <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a> has been used to display icons.</li>
+    <li><a href="https://tinypng.com/" target="_blank">tinypng</a> has been used to reduce the size of pictures.</li>
     <li>Git has been used to version control the project.</li>
     <li>GitHub has been used to cloudify and deploy the project.</li>
     <li>GitPod has been used as an IDE to develop the project.</li>
