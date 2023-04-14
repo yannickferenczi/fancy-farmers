@@ -36,6 +36,10 @@ form {
     border-radius: 5px;
 }
 
+form input {
+    box-sizing: border-box;
+}
+
 fieldset {
     margin: 15px 2%;
     border: 1px solid black;
@@ -124,6 +128,7 @@ fieldset legend {
     vertical-align: middle;
     width: 20%;
     text-align: right;
+    margin-bottom: 12px;
     border: 1px solid #0B6801;
 }
 
