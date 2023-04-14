@@ -62,8 +62,6 @@ The target audience for the Fancy Farmers can include:
             </li>
             <li>As a Returning Visitor, I want to easily find a few different ways to contact the organisation.
             </li>
-            <li>As a Returning Visitor, I want to find links to their social media.
-            </li>
         </ol>
     </li>
     <li>
@@ -72,6 +70,8 @@ The target audience for the Fancy Farmers can include:
             <li>As a Frequent User, I want to know their currently available products.
             </li>
             <li>As a Frequent User, I want to know what are the up coming events organised at the farm.
+            </li>
+            <li>As a Frequent User, I want to have an easy way of purchasing their products or booking for their events.
             </li>
         </ol>
     </li>
@@ -134,6 +134,7 @@ The website also provide a thanks page only accessible after submiting the form.
 
 <strong>Wireframes</strong>
 
+The wireframes have been implemented using Corel Vector. The point in creating those wireframe was to have most of the content and colors in place before coding this project. The coding part would then be free of important design decisions and therefore more focus and efficient.
 <ul>
     <li>The landing page, index.html, on desltop and mobile:
     <img src="assets/images/wireframe-index.png"></li>
@@ -171,6 +172,7 @@ The website also provide a thanks page only accessible after submiting the form.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 The file base.css has been imported in all of the following tested css file. The result of the W3C CSS Validator for that file is shown below: <br> <img src="assets\images\w3c-css-validator-base.png">
+
 <ol>
     <li>Landing page
         <ul>
@@ -214,7 +216,7 @@ At last, all html and css file have returned 'no errors or warnings to show'. Bu
 I wanted to add a hamburger menu to the navigation of the website without knowing that it was actually more a JavaScript thing.
 But because I did not want to give up on that feature, I have managed to find a way to make it work with css only. Nevertheless, nesting a label tag inside a list element created an error when checking the HTML code. To fix that issue, I simply replaced the ul and li elements with some div elements keeping the same parent-children relationship.
 <br><br>
-Another error I encountered has been related to the iframe element I inserted from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width with some percentages. This practice generated an error on the validator. To fix it I just put back some digits only. The map was not responsive anymore but it did not seem to be a problem. If it would be, an easy way to fix it might be to use a few iframes with different dimensions and display them regarding the size of the screen.
+Another error I encountered has been related to the iframe element I inserted from google maps on the landing page. I wanted the map to be responsive and therefore replaced the value of attributes height and width inside the html file with some percentages. This practice generated an error on the validator which were expecting only digit where I had given percentages. To fix it I just deleted those attributes from the html tag and add the equivalent properties to the css file.
 <br><br>
 I also had some issue while using the section element. It did not generate errors but some warnings. The origin of that issue was that the section elements should only be used with headings nested inside them. It was not always my case and when it was, the headings were not direct children but nested inside a div element, itself nested inside the section elements. To get rid of those warnings, I just replaced the section elements with some div elements.
 <br><br>
@@ -377,12 +379,24 @@ I also had some issue while using the section element. It did not generate error
         Returning Visitor Goals
         <ol>
             <li>As a Returning Visitor, I want to find the seasonnal products I want to purchase currently.
+                <ul>
+                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="assets/images/available-products-access.png">
+                    </li>
+                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="assets/images/products-categories.png">
+                    </li>
+                </ul>
             </li>
             <li>As a Returning Visitor, I want to find the up coming events organised at the farm.
+                <ul>
+                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="assets/images/events-highlighted.png">
+                    </li>
+                </ul>
             </li>
             <li>As a Returning Visitor, I want to easily find a few different ways to contact the organisation.
-            </li>
-            <li>As a Returning Visitor, I want to find links to their social media.
+                <ul>
+                    <li>From the landing page, users are invited to contact the Fancy Farmers with the address and phone number displayed direct next to the map. On the contact page, users can also, as one of the first information displayed, find the address and phone number. While navigating on the website, users will also find some invitations to contact the organization by clicking on links leading them to the contact page.<img src="assets/images/contact-options.png">
+                    </li>
+                </ul>
             </li>
         </ol>
     </li>
@@ -390,8 +404,24 @@ I also had some issue while using the section element. It did not generate error
         Frequent User Goals
         <ol>
             <li>As a Frequent User, I want to know their currently available products.
+                <ul>
+                    <li>As the website is quite light and the pages are accurately named, users can easily find their way back to the products page and then to the currently available products.<img src="assets/images/available-products-access.png">
+                    </li>
+                    <li>On the products page, the products are categorized, allowing users to quickly find the products they are looking for.<img src="assets/images/products-categories.png">
+                    </li>
+                </ul>
             </li>
             <li>As a Frequent User, I want to know what are the up coming events organised at the farm.
+                <ul>
+                    <li>The up comming events are clearly listed on the events page, which makes it easy for users to know where to look for them. Details like the date, the price and the theme of the event, illustrated with a picture on bigger screens, are well highlighted. A description is also available for users who wish more information about the event.<img src="assets/images/events-highlighted.png">
+                    </li>
+                </ul>
+            </li>
+            <li>As a Frequent User, I want to have an easy way of purchasing their products or booking for their events.
+                <ul>
+                    <li>Users who wish to book an event or purchase products will be able to submit their request via the contact form. The request will be treated and the users will get further information about how their request will be processed per email.<img src="assets/images/booking-and-ordering.png">
+                    </li>
+                </ul>
             </li>
         </ol>
     </li>
