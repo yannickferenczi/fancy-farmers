@@ -75,6 +75,7 @@ details p {
 .available-products:hover {
     border: 3px solid #0B6801;
     box-shadow: 1px 1px 5px black;
+    padding-bottom: 13px;
 }
 
 .price-listing {

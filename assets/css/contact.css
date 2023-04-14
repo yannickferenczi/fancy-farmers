@@ -132,6 +132,10 @@ fieldset legend {
     border: 1px solid #0B6801;
 }
 
+.shopping-element > input:hover {
+    margin-bottom: 10px;
+}
+
 .shopping-element > label {
     display: block;
     font-weight: 600;
@@ -163,6 +167,10 @@ fieldset legend {
     border: 1px solid #0B6801;
 }
 
+.events > input:hover {
+    margin-left: 2px;
+}
+
 /* Styling for the message fieldset */
 textarea {
     width: 100%;
@@ -181,7 +189,6 @@ textarea {
 
 .react-on-action:hover {
     border: 3px solid #0B6801;
-    padding-left: 15px;
 }
 
 .react-on-action:focus {
